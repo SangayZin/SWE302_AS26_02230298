@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1786629091393" clover="3.2.0">
+  <project timestamp="1786629091394" name="All files">
+    <metrics statements="47" coveredstatements="47" conditionals="55" coveredconditionals="54" methods="6" coveredmethods="6" elements="108" coveredelements="107" complexity="0" loc="47" ncloc="47" packages="1" files="1" classes="1"/>
+    <file name="validationService.js" path="/home/sangay/Desktop/SWE302_AS26_02230298/Lab/student-management-system/src/services/validationService.js">
+      <metrics statements="47" coveredstatements="47" conditionals="55" coveredconditionals="54" methods="6" coveredmethods="6"/>
+      <line num="10" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="38" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="45" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="52" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="59" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="66" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="84" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="91" count="4" type="stmt"/>
+      <line num="92" count="4" type="stmt"/>
+      <line num="94" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="95" count="1" type="stmt"/>
+      <line num="101" count="3" type="stmt"/>
+      <line num="112" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="113" count="1" type="stmt"/>
+      <line num="119" count="2" type="stmt"/>
+      <line num="120" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="121" count="1" type="stmt"/>
+      <line num="127" count="1" type="stmt"/>
+      <line num="141" count="13" type="stmt"/>
+      <line num="144" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="145" count="5" type="stmt"/>
+      <line num="149" count="13" type="cond" truecount="4" falsecount="0"/>
+      <line num="150" count="3" type="stmt"/>
+      <line num="154" count="13" type="cond" truecount="5" falsecount="0"/>
+      <line num="155" count="2" type="stmt"/>
+      <line num="159" count="13" type="cond" truecount="5" falsecount="0"/>
+      <line num="160" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="161" count="1" type="stmt"/>
+      <line num="165" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="166" count="11" type="stmt"/>
+      <line num="172" count="2" type="stmt"/>
+      <line num="183" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="184" count="1" type="stmt"/>
+      <line num="190" count="1" type="stmt"/>
+      <line num="197" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
