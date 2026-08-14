@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 500px; margin: 50px auto; padding: 20px; background: #f5f5f5; }
+        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        label { display: block; margin: 10px 0 5px; font-weight: bold; }
+        input, select { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px; }
+        .checkbox-group { margin: 10px 0; }
+        .checkbox-group label { display: inline; font-weight: normal; }
+        button { width: 100%; padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; margin-top: 15px; cursor: pointer; }
+        button:hover { background: #218838; }
+        .error { color: red; margin: 10px 0; padding: 10px; background: #ffebee; border-radius: 5px; }
+        .success { color: green; margin: 10px 0; padding: 10px; background: #e8f5e9; border-radius: 5px; }
+        .nav { text-align: center; margin-top: 15px; }
+        .nav a { margin: 0 10px; color: #007bff; text-decoration: none; }
+        .module-list { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration</h2>
+        <% if (error) { %>
+            <div class="error"><%= error %></div>
+        <% } %>
+        <% if (success) { %>
+            <div class="success"><%= success %></div>
+        <% } %>
+        
+        <form action="/register" method="POST">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" placeholder="Enter 8-digit ID" required>
+            
+            <label for="moduleCode">Module to Register (R8):</label>
+            <select id="moduleCode" name="moduleCode" required>
+                <option value="">Select Module</option>
+                <% modules.forEach(module => { %>
+                    <option value="<%= module %>"><%= module %></option>
+                <% }) %>
+            </select>
+            
+            <div class="checkbox-group">
+                <h4>Registration Conditions (R5, R6, R7):</h4>
+                <label>
+                    <input type="checkbox" name="paymentVerified" value="true">
+                    Payment Verified (R5)
+                </label><br>
+                <label>
+                    <input type="checkbox" name="drugTestVerified" value="true">
+                    Drug Test Verified (R6)
+                </label><br>
+                <label>
+                    <input type="checkbox" name="registrationOpen" value="true">
+                    Registration Period Open (R7)
+                </label>
+            </div>
+            
+            <button type="submit">Register</button>
+        </form>
+        
+        <div class="nav">
+            <a href="/">Login</a> |
+            <a href="/payment">Payment</a> |
+            <a href="/results">Results</a>
+        </div>
+    </div>
+</body>
+</html>

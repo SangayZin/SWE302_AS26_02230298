@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 { text-align: center; color: #333; }
+        label { display: block; margin: 10px 0 5px; font-weight: bold; }
+        input { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px; }
+        button { width: 100%; padding: 10px; background: #007bff; color: white; border: none; border-radius: 5px; margin-top: 15px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .error { color: red; margin: 10px 0; padding: 10px; background: #ffebee; border-radius: 5px; }
+        .success { color: green; margin: 10px 0; padding: 10px; background: #e8f5e9; border-radius: 5px; }
+        .nav { text-align: center; margin-top: 15px; }
+        .nav a { margin: 0 10px; color: #007bff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Student Login</h2>
+        <% if (error) { %>
+            <div class="error"><%= error %></div>
+        <% } %>
+        <% if (success) { %>
+            <div class="success"><%= success %></div>
+        <% } %>
+        
+        <form action="/login" method="POST">
+            <label for="studentId">Student ID (R1, R2):</label>
+            <input type="text" id="studentId" name="studentId" placeholder="Enter 8-digit ID" required>
+            <small>Exactly 8 digits, numbers only</small>
+            
+            <label for="password">Password (R3, R4):</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+            <small>8-12 chars, uppercase, lowercase, number</small>
+            
+            <button type="submit">Login</button>
+        </form>
+        
+        <div class="nav">
+            <a href="/register">Register</a> |
+            <a href="/payment">Payment</a> |
+            <a href="/results">Results</a>
+        </div>
+    </div>
+</body>
+</html>
