@@ -1,0 +1,1080 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1791147340584,27,GET home page,200,OK,Load Test Users 1-1,text,true,,2446,117,4,4,http://localhost:3000/,27,0,18
+1791147341004,4,GET home page,200,OK,Load Test Users 1-2,text,true,,2446,117,5,5,http://localhost:3000/,4,0,1
+1791147341503,3,GET home page,200,OK,Load Test Users 1-3,text,true,,2446,117,6,6,http://localhost:3000/,3,0,1
+1791147342002,3,GET home page,200,OK,Load Test Users 1-4,text,true,,2446,117,7,7,http://localhost:3000/,3,0,1
+1791147342501,3,GET home page,200,OK,Load Test Users 1-5,text,true,,2446,117,8,8,http://localhost:3000/,3,0,0
+1791147343000,3,GET home page,200,OK,Load Test Users 1-6,text,true,,2446,117,9,9,http://localhost:3000/,3,0,0
+1791147343497,5,GET home page,200,OK,Load Test Users 1-7,text,true,,2446,117,10,10,http://localhost:3000/,5,0,1
+1791147340613,3009,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,759,252,10,10,null,0,0,0
+1791147342113,4,GET all students,200,OK,Load Test Users 1-1,text,true,,451,125,7,7,http://localhost:3000/students,4,0,0
+1791147343619,3,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,10,10,http://localhost:3000/students/1,3,0,0
+1791147343998,4,GET home page,200,OK,Load Test Users 1-8,text,true,,2446,117,11,11,http://localhost:3000/,4,0,1
+1791147341009,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,759,252,11,11,null,0,0,0
+1791147342509,2,GET all students,200,OK,Load Test Users 1-2,text,true,,451,125,8,8,http://localhost:3000/students,2,0,0
+1791147344013,2,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,11,11,http://localhost:3000/students/1,2,0,0
+1791147344495,3,GET home page,200,OK,Load Test Users 1-9,text,true,,2446,117,12,12,http://localhost:3000/,3,0,1
+1791147341507,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,759,252,12,12,null,0,0,0
+1791147343008,1,GET all students,200,OK,Load Test Users 1-3,text,true,,451,125,9,9,http://localhost:3000/students,1,0,0
+1791147344510,2,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,12,12,http://localhost:3000/students/1,2,0,0
+1791147344995,3,GET home page,200,OK,Load Test Users 1-10,text,true,,2446,117,13,13,http://localhost:3000/,3,0,1
+1791147342006,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,759,252,13,13,null,0,0,0
+1791147343506,2,GET all students,200,OK,Load Test Users 1-4,text,true,,451,125,10,10,http://localhost:3000/students,2,0,0
+1791147345009,2,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,13,13,http://localhost:3000/students/1,2,0,0
+1791147345126,7,POST create student,201,Created,Load Test Users 1-1,text,true,,313,244,13,13,http://localhost:3000/students,7,0,0
+1791147345494,3,GET home page,200,OK,Load Test Users 1-11,text,true,,2446,117,14,14,http://localhost:3000/,2,0,1
+1791147342504,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,759,252,14,14,null,0,0,0
+1791147344005,2,GET all students,200,OK,Load Test Users 1-5,text,true,,451,125,11,11,http://localhost:3000/students,2,0,0
+1791147345508,2,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,14,14,http://localhost:3000/students/1,2,0,0
+1791147345517,2,POST create student,201,Created,Load Test Users 1-2,text,true,,307,238,14,14,http://localhost:3000/students,2,0,0
+1791147345993,4,GET home page,200,OK,Load Test Users 1-12,text,true,,2446,117,15,15,http://localhost:3000/,4,0,1
+1791147343003,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,759,252,15,15,null,0,0,0
+1791147344504,1,GET all students,200,OK,Load Test Users 1-6,text,true,,451,125,12,12,http://localhost:3000/students,1,0,0
+1791147346006,2,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,15,15,http://localhost:3000/students/1,2,0,0
+1791147346013,2,POST create student,201,Created,Load Test Users 1-3,text,true,,311,242,15,15,http://localhost:3000/students,2,0,0
+1791147346491,2,GET home page,200,OK,Load Test Users 1-13,text,true,,2446,117,16,16,http://localhost:3000/,2,0,1
+1791147343502,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,759,252,16,16,null,0,0,0
+1791147345003,2,GET all students,200,OK,Load Test Users 1-7,text,true,,451,125,13,13,http://localhost:3000/students,2,0,0
+1791147346507,2,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,16,16,http://localhost:3000/students/1,2,0,0
+1791147346513,1,POST create student,201,Created,Load Test Users 1-4,text,true,,311,242,16,16,http://localhost:3000/students,1,0,0
+1791147346661,2,GET newly created student,200,OK,Load Test Users 1-1,text,true,,308,127,16,16,http://localhost:3000/students/4,2,0,0
+1791147346990,3,GET home page,200,OK,Load Test Users 1-14,text,true,,2446,117,17,17,http://localhost:3000/,3,0,1
+1791147344003,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,834,252,17,17,null,0,0,0
+1791147345503,1,GET all students,200,OK,Load Test Users 1-8,text,true,,526,125,14,14,http://localhost:3000/students,1,0,0
+1791147347005,2,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,17,17,http://localhost:3000/students/1,2,0,0
+1791147347011,2,POST create student,201,Created,Load Test Users 1-5,text,true,,307,238,17,17,http://localhost:3000/students,2,0,0
+1791147347020,1,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,302,127,17,17,http://localhost:3000/students/5,1,0,0
+1791147347489,5,GET home page,200,OK,Load Test Users 1-15,text,true,,2446,117,18,18,http://localhost:3000/,5,0,1
+1791147344499,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,902,252,18,18,null,0,0,0
+1791147345999,3,GET all students,200,OK,Load Test Users 1-9,text,true,,594,125,15,15,http://localhost:3000/students,3,0,0
+1791147347503,2,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,18,18,http://localhost:3000/students/1,2,0,0
+1791147347510,1,POST create student,201,Created,Load Test Users 1-6,text,true,,312,243,18,18,http://localhost:3000/students,1,0,0
+1791147347517,2,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,306,127,18,18,http://localhost:3000/students/6,2,0,0
+1791147347987,2,GET home page,200,OK,Load Test Users 1-16,text,true,,2446,117,19,19,http://localhost:3000/,2,0,1
+1791147344999,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,974,252,19,19,null,0,0,0
+1791147346499,2,GET all students,200,OK,Load Test Users 1-10,text,true,,666,125,16,16,http://localhost:3000/students,2,0,0
+1791147348002,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,19,19,http://localhost:3000/students/1,2,0,0
+1791147348010,2,POST create student,201,Created,Load Test Users 1-7,text,true,,310,240,19,19,http://localhost:3000/students,2,0,0
+1791147348015,2,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,306,127,19,19,http://localhost:3000/students/7,2,0,0
+1791147348488,2,GET home page,200,OK,Load Test Users 1-17,text,true,,2446,117,20,20,http://localhost:3000/,2,0,0
+1791147345497,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,1046,252,20,20,null,0,0,0
+1791147346997,2,GET all students,200,OK,Load Test Users 1-11,text,true,,738,125,17,17,http://localhost:3000/students,1,0,0
+1791147348499,2,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147348508,1,POST create student,201,Created,Load Test Users 1-8,text,true,,312,242,20,20,http://localhost:3000/students,1,0,0
+1791147348514,1,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,302,127,20,20,http://localhost:3000/students/8,1,0,0
+1791147348987,3,GET home page,200,OK,Load Test Users 1-18,text,true,,2446,117,20,20,http://localhost:3000/,3,0,1
+1791147345997,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,1114,252,20,20,null,0,0,0
+1791147347498,4,GET all students,200,OK,Load Test Users 1-12,text,true,,806,125,18,18,http://localhost:3000/students,4,0,0
+1791147349003,2,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147349006,3,POST create student,201,Created,Load Test Users 1-9,text,true,,307,237,20,20,http://localhost:3000/students,3,0,0
+1791147349012,2,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,307,127,20,20,http://localhost:3000/students/9,2,0,0
+1791147349487,3,GET home page,200,OK,Load Test Users 1-19,text,true,,2446,117,20,20,http://localhost:3000/,3,0,1
+1791147346493,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,1187,252,20,20,null,0,0,0
+1791147347994,1,GET all students,200,OK,Load Test Users 1-13,text,true,,879,125,19,19,http://localhost:3000/students,1,0,0
+1791147349496,1,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147349505,2,POST create student,201,Created,Load Test Users 1-10,text,true,,311,241,20,20,http://localhost:3000/students,2,0,0
+1791147349513,1,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/10,1,0,0
+1791147346664,3009,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,1258,252,20,20,null,0,0,0
+1791147348165,4,GET all students,200,OK,Load Test Users 1-1,text,true,,950,125,19,19,http://localhost:3000/students,4,0,0
+1791147349671,2,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147349985,2,GET home page,200,OK,Load Test Users 1-20,text,true,,2446,117,20,20,http://localhost:3000/,2,0,1
+1791147346993,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,1258,252,20,20,null,0,0,0
+1791147348494,1,GET all students,200,OK,Load Test Users 1-14,text,true,,950,125,20,20,http://localhost:3000/students,1,0,0
+1791147349996,1,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147350002,2,POST create student,201,Created,Load Test Users 1-11,text,true,,297,227,20,20,http://localhost:3000/students,2,0,0
+1791147350010,2,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/11,2,0,0
+1791147347022,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,1331,252,20,20,null,0,0,0
+1791147348522,2,GET all students,200,OK,Load Test Users 1-2,text,true,,1023,125,20,20,http://localhost:3000/students,2,0,0
+1791147350025,1,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147347495,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,1331,252,20,20,null,0,0,0
+1791147348995,2,GET all students,200,OK,Load Test Users 1-15,text,true,,1023,125,20,20,http://localhost:3000/students,2,0,0
+1791147350498,2,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147350506,2,POST create student,201,Created,Load Test Users 1-12,text,true,,314,244,20,20,http://localhost:3000/students,2,0,0
+1791147350510,1,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/12,1,0,0
+1791147347519,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,1399,252,20,20,null,0,0,0
+1791147349020,2,GET all students,200,OK,Load Test Users 1-3,text,true,,1091,125,20,20,http://localhost:3000/students,2,0,0
+1791147350523,2,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147347989,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,1399,252,20,20,null,0,0,0
+1791147349489,2,GET all students,200,OK,Load Test Users 1-16,text,true,,1091,125,20,20,http://localhost:3000/students,2,0,0
+1791147350992,2,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147350999,3,POST create student,201,Created,Load Test Users 1-13,text,true,,308,238,20,20,http://localhost:3000/students,3,0,0
+1791147351008,3,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/13,3,0,0
+1791147348018,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,1471,252,20,20,null,0,0,0
+1791147349518,1,GET all students,200,OK,Load Test Users 1-4,text,true,,1163,125,20,20,http://localhost:3000/students,1,0,0
+1791147351020,1,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147351175,2,POST create student,201,Created,Load Test Users 1-1,text,true,,313,243,20,20,http://localhost:3000/students,2,0,0
+1791147348491,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,1471,252,20,20,null,0,0,0
+1791147349991,1,GET all students,200,OK,Load Test Users 1-17,text,true,,1163,125,20,20,http://localhost:3000/students,1,0,0
+1791147351493,2,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147351498,2,POST create student,201,Created,Load Test Users 1-14,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147351505,1,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/14,1,0,0
+1791147348516,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,1529,252,20,20,null,0,0,0
+1791147350016,2,GET all students,200,OK,Load Test Users 1-5,text,true,,1221,125,20,20,http://localhost:3000/students,2,0,0
+1791147351518,2,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147351527,1,POST create student,201,Created,Load Test Users 1-2,text,true,,312,242,20,20,http://localhost:3000/students,1,0,0
+1791147348990,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,1529,252,20,20,null,0,0,0
+1791147350491,2,GET all students,200,OK,Load Test Users 1-18,text,true,,1221,125,20,20,http://localhost:3000/students,2,0,0
+1791147351994,2,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147352002,2,POST create student,201,Created,Load Test Users 1-15,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147352009,2,GET newly created student,200,OK,Load Test Users 1-12,text,true,,309,128,20,20,http://localhost:3000/students/15,2,0,0
+1791147349015,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,1605,252,20,20,null,0,0,0
+1791147350515,2,GET all students,200,OK,Load Test Users 1-6,text,true,,1297,125,20,20,http://localhost:3000/students,2,0,0
+1791147352018,2,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147352025,2,POST create student,201,Created,Load Test Users 1-3,text,true,,311,241,20,20,http://localhost:3000/students,2,0,0
+1791147349491,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,1605,252,20,20,null,0,0,0
+1791147350991,2,GET all students,200,OK,Load Test Users 1-19,text,true,,1297,125,20,20,http://localhost:3000/students,2,0,0
+1791147352494,3,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147352495,3,POST create student,201,Created,Load Test Users 1-16,text,true,,308,238,20,20,http://localhost:3000/students,3,0,0
+1791147352503,2,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/16,2,0,0
+1791147349515,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,1674,252,20,20,null,0,0,0
+1791147351015,2,GET all students,200,OK,Load Test Users 1-7,text,true,,1366,125,20,20,http://localhost:3000/students,2,0,0
+1791147352518,3,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147352522,2,POST create student,201,Created,Load Test Users 1-4,text,true,,314,244,20,20,http://localhost:3000/students,2,0,0
+1791147352678,2,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/17,2,0,0
+1791147349988,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,1748,252,20,20,null,0,0,0
+1791147351489,1,GET all students,200,OK,Load Test Users 1-20,text,true,,1440,125,20,20,http://localhost:3000/students,1,0,0
+1791147352991,2,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147352996,2,POST create student,201,Created,Load Test Users 1-17,text,true,,310,240,20,20,http://localhost:3000/students,2,0,0
+1791147353001,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/18,2,0,0
+1791147350013,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,1821,252,20,20,null,0,0,0
+1791147351514,3,GET all students,200,OK,Load Test Users 1-8,text,true,,1513,125,20,20,http://localhost:3000/students,2,0,0
+1791147353017,3,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147353021,2,POST create student,201,Created,Load Test Users 1-5,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147353029,2,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/19,2,0,0
+1791147353497,3,POST create student,201,Created,Load Test Users 1-18,text,true,,307,237,20,20,http://localhost:3000/students,2,0,0
+1791147353505,2,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/20,1,0,0
+1791147350511,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,1967,252,20,20,null,0,0,0
+1791147352012,1,GET all students,200,OK,Load Test Users 1-9,text,true,,1659,125,20,20,http://localhost:3000/students,1,0,0
+1791147353514,2,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147353521,3,POST create student,201,Created,Load Test Users 1-6,text,true,,312,242,20,20,http://localhost:3000/students,3,0,0
+1791147353527,2,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/21,2,0,0
+1791147353999,2,POST create student,201,Created,Load Test Users 1-19,text,true,,297,227,20,20,http://localhost:3000/students,2,0,0
+1791147353999,5,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/22,5,0,0
+1791147351012,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,2108,252,20,20,null,0,0,0
+1791147352512,2,GET all students,200,OK,Load Test Users 1-10,text,true,,1800,125,20,20,http://localhost:3000/students,2,0,0
+1791147354015,1,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147354022,2,POST create student,201,Created,Load Test Users 1-7,text,true,,308,238,20,20,http://localhost:3000/students,2,0,0
+1791147354025,1,GET newly created student,200,OK,Load Test Users 1-4,text,true,,309,128,20,20,http://localhost:3000/students/23,1,0,0
+1791147354494,2,POST create student,201,Created,Load Test Users 1-20,text,true,,308,238,20,20,http://localhost:3000/students,2,0,0
+1791147354499,3,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/24,3,0,0
+1791147351506,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,2254,252,20,20,null,0,0,0
+1791147353007,2,GET all students,200,OK,Load Test Users 1-11,text,true,,1946,125,20,20,http://localhost:3000/students,2,0,0
+1791147354509,3,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147354521,2,POST create student,201,Created,Load Test Users 1-8,text,true,,313,243,20,20,http://localhost:3000/students,2,0,0
+1791147354524,1,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/25,1,0,0
+1791147355001,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/26,2,0,0
+1791147352011,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,2395,252,20,20,null,0,0,0
+1791147353512,2,GET all students,200,OK,Load Test Users 1-12,text,true,,2087,125,20,20,http://localhost:3000/students,2,0,0
+1791147355015,2,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147355017,3,POST create student,201,Created,Load Test Users 1-9,text,true,,310,240,20,20,http://localhost:3000/students,3,0,0
+1791147355025,2,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/27,2,0,0
+1791147355503,2,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/28,2,0,0
+1791147352506,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,2526,252,20,20,null,0,0,0
+1791147354006,2,GET all students,200,OK,Load Test Users 1-13,text,true,,2218,125,20,20,http://localhost:3000/students,2,0,0
+1791147355508,3,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147355518,2,POST create student,201,Created,Load Test Users 1-10,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147355524,2,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/29,2,0,0
+1791147352681,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,2595,252,20,20,null,0,0,0
+1791147354182,3,GET all students,200,OK,Load Test Users 1-1,text,true,,2287,125,20,20,http://localhost:3000/students,3,0,0
+1791147355686,2,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147355998,3,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/30,3,0,0
+1791147353004,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,2664,252,20,20,null,0,0,0
+1791147354504,2,GET all students,200,OK,Load Test Users 1-14,text,true,,2356,125,20,20,http://localhost:3000/students,2,0,0
+1791147356007,2,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147356012,2,POST create student,201,Created,Load Test Users 1-11,text,true,,307,237,20,20,http://localhost:3000/students,2,0,0
+1791147356024,2,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/31,2,0,0
+1791147353031,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,2738,252,20,20,null,0,0,0
+1791147354532,2,GET all students,200,OK,Load Test Users 1-2,text,true,,2430,125,20,20,http://localhost:3000/students,2,0,0
+1791147356035,2,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147353507,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,2738,252,20,20,null,0,0,0
+1791147355007,2,GET all students,200,OK,Load Test Users 1-15,text,true,,2430,125,20,20,http://localhost:3000/students,2,0,0
+1791147356510,1,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147356519,2,POST create student,201,Created,Load Test Users 1-12,text,true,,311,241,20,20,http://localhost:3000/students,2,0,0
+1791147356521,2,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/32,2,0,0
+1791147353530,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,2809,252,20,20,null,0,0,0
+1791147355030,2,GET all students,200,OK,Load Test Users 1-3,text,true,,2501,125,20,20,http://localhost:3000/students,2,0,0
+1791147356533,2,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147354005,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,2809,252,20,20,null,0,0,0
+1791147355506,1,GET all students,200,OK,Load Test Users 1-16,text,true,,2501,125,20,20,http://localhost:3000/students,1,0,0
+1791147357008,2,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147357012,1,POST create student,201,Created,Load Test Users 1-13,text,true,,297,227,20,20,http://localhost:3000/students,1,0,0
+1791147357021,2,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/33,2,0,0
+1791147354026,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,2882,252,20,20,null,0,0,0
+1791147355526,1,GET all students,200,OK,Load Test Users 1-4,text,true,,2574,125,20,20,http://localhost:3000/students,1,0,0
+1791147357028,1,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147357189,2,POST create student,201,Created,Load Test Users 1-1,text,true,,314,244,20,20,http://localhost:3000/students,2,0,0
+1791147354502,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,2882,252,20,20,null,0,0,0
+1791147356003,1,GET all students,200,OK,Load Test Users 1-17,text,true,,2574,125,20,20,http://localhost:3000/students,1,0,0
+1791147357506,3,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147357510,3,POST create student,201,Created,Load Test Users 1-14,text,true,,308,238,20,20,http://localhost:3000/students,3,0,0
+1791147357516,3,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/34,3,0,0
+1791147354526,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,2950,252,20,20,null,0,0,0
+1791147356026,1,GET all students,200,OK,Load Test Users 1-5,text,true,,2642,125,20,20,http://localhost:3000/students,1,0,0
+1791147357528,2,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147357538,2,POST create student,201,Created,Load Test Users 1-2,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147355004,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,2950,252,20,20,null,0,0,0
+1791147356504,2,GET all students,200,OK,Load Test Users 1-18,text,true,,2642,125,20,20,http://localhost:3000/students,2,0,0
+1791147358007,2,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147358012,2,POST create student,201,Created,Load Test Users 1-15,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147358023,2,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/35,2,0,0
+1791147355027,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,3022,252,20,20,null,0,0,0
+1791147356527,1,GET all students,200,OK,Load Test Users 1-6,text,true,,2714,125,20,20,http://localhost:3000/students,1,0,0
+1791147358029,2,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147358036,3,POST create student,201,Created,Load Test Users 1-3,text,true,,308,238,20,20,http://localhost:3000/students,3,0,0
+1791147355506,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,3022,252,20,20,null,0,0,0
+1791147357007,2,GET all students,200,OK,Load Test Users 1-19,text,true,,2714,125,20,20,http://localhost:3000/students,2,0,0
+1791147358510,2,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147358511,2,POST create student,201,Created,Load Test Users 1-16,text,true,,313,243,20,20,http://localhost:3000/students,2,0,0
+1791147358514,3,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/36,3,0,0
+1791147355526,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,3080,252,20,20,null,0,0,0
+1791147357026,2,GET all students,200,OK,Load Test Users 1-7,text,true,,2772,125,20,20,http://localhost:3000/students,2,0,0
+1791147358528,1,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147358530,0,POST create student,201,Created,Load Test Users 1-4,text,true,,310,240,20,20,http://localhost:3000/students,0,0,0
+1791147358692,3,GET newly created student,200,OK,Load Test Users 1-1,text,true,,309,128,20,20,http://localhost:3000/students/37,3,0,0
+1791147359011,2,POST create student,201,Created,Load Test Users 1-17,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147356002,3012,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,3155,252,20,20,null,0,0,0
+1791147357503,7,GET all students,200,OK,Load Test Users 1-20,text,true,,2847,125,20,20,http://localhost:3000/students,7,0,0
+1791147359011,3,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147359014,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/38,2,0,0
+1791147356026,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,3224,252,20,20,null,0,0,0
+1791147357527,3,GET all students,200,OK,Load Test Users 1-8,text,true,,2916,125,20,20,http://localhost:3000/students,3,0,0
+1791147359030,1,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147359031,1,POST create student,201,Created,Load Test Users 1-5,text,true,,307,237,20,20,http://localhost:3000/students,1,0,0
+1791147359040,2,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/39,2,0,0
+1791147359511,1,POST create student,201,Created,Load Test Users 1-18,text,true,,311,241,20,20,http://localhost:3000/students,1,0,0
+1791147359515,1,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/40,1,0,0
+1791147356523,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,3370,252,20,20,null,0,0,0
+1791147358024,3,GET all students,200,OK,Load Test Users 1-9,text,true,,3062,125,20,20,http://localhost:3000/students,3,0,0
+1791147359527,1,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147359532,1,POST create student,201,Created,Load Test Users 1-6,text,true,,297,227,20,20,http://localhost:3000/students,1,0,0
+1791147359540,1,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/41,1,0,0
+1791147360013,2,POST create student,201,Created,Load Test Users 1-19,text,true,,314,244,20,20,http://localhost:3000/students,2,0,0
+1791147360014,2,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/42,2,0,0
+1791147357023,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,3513,252,20,20,null,0,0,0
+1791147358524,1,GET all students,200,OK,Load Test Users 1-10,text,true,,3205,125,20,20,http://localhost:3000/students,1,0,0
+1791147360026,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147360030,2,POST create student,201,Created,Load Test Users 1-7,text,true,,308,238,20,20,http://localhost:3000/students,2,0,0
+1791147360031,2,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/43,2,0,0
+1791147360515,4,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/44,4,0,0
+1791147360515,5,POST create student,201,Created,Load Test Users 1-20,text,true,,312,242,20,20,http://localhost:3000/students,5,0,0
+1791147357520,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,3657,252,20,20,null,0,0,0
+1791147359020,2,GET all students,200,OK,Load Test Users 1-11,text,true,,3349,125,20,20,http://localhost:3000/students,2,0,0
+1791147360523,1,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147360532,3,POST create student,201,Created,Load Test Users 1-8,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147360532,5,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/45,4,0,0
+1791147361012,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/46,2,0,0
+1791147361028,2,POST create student,201,Created,Load Test Users 1-9,text,true,,308,238,20,20,http://localhost:3000/students,2,0,0
+1791147358026,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,3797,252,20,20,null,0,0,0
+1791147359526,1,GET all students,200,OK,Load Test Users 1-12,text,true,,3489,125,20,20,http://localhost:3000/students,1,0,0
+1791147361028,2,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147361034,2,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/47,2,0,0
+1791147361519,3,GET newly created student,200,OK,Load Test Users 1-19,text,true,,309,128,20,20,http://localhost:3000/students/48,3,0,0
+1791147358517,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,3930,252,20,20,null,0,0,0
+1791147360018,1,GET all students,200,OK,Load Test Users 1-13,text,true,,3622,125,20,20,http://localhost:3000/students,1,0,0
+1791147361520,3,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147361529,3,POST create student,201,Created,Load Test Users 1-10,text,true,,313,243,20,20,http://localhost:3000/students,2,0,0
+1791147361533,3,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/49,3,0,0
+1791147358695,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,3999,252,20,20,null,0,0,0
+1791147360196,3,GET all students,200,OK,Load Test Users 1-1,text,true,,3691,125,20,20,http://localhost:3000/students,3,0,0
+1791147361700,2,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147362021,3,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/50,3,0,0
+1791147359017,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,4072,252,20,20,null,0,0,0
+1791147360518,3,GET all students,200,OK,Load Test Users 1-14,text,true,,3764,125,20,20,http://localhost:3000/students,3,0,0
+1791147362022,3,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147362025,1,POST create student,201,Created,Load Test Users 1-11,text,true,,310,240,20,20,http://localhost:3000/students,1,0,0
+1791147362036,4,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/51,4,0,0
+1791147359042,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,4145,252,20,20,null,0,0,0
+1791147360543,2,GET all students,200,OK,Load Test Users 1-2,text,true,,3837,125,20,20,http://localhost:3000/students,2,0,0
+1791147362045,1,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147359516,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,4145,252,20,20,null,0,0,0
+1791147361017,3,GET all students,200,OK,Load Test Users 1-15,text,true,,3837,125,20,20,http://localhost:3000/students,3,0,0
+1791147362521,2,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147362531,2,POST create student,201,Created,Load Test Users 1-12,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147362530,3,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/52,3,0,0
+1791147359541,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,4214,252,20,20,null,0,0,0
+1791147361041,1,GET all students,200,OK,Load Test Users 1-3,text,true,,3906,125,20,20,http://localhost:3000/students,1,0,0
+1791147362543,2,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147360017,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,4214,252,20,20,null,0,0,0
+1791147361517,3,GET all students,200,OK,Load Test Users 1-16,text,true,,3906,125,20,20,http://localhost:3000/students,3,0,0
+1791147363021,2,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147363023,3,POST create student,201,Created,Load Test Users 1-13,text,true,,307,237,20,20,http://localhost:3000/students,2,0,0
+1791147363033,2,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/53,2,0,0
+1791147360034,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,4288,252,20,20,null,0,0,0
+1791147361534,2,GET all students,200,OK,Load Test Users 1-4,text,true,,3980,125,20,20,http://localhost:3000/students,2,0,0
+1791147363037,2,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147363203,2,POST create student,201,Created,Load Test Users 1-1,text,true,,311,241,20,20,http://localhost:3000/students,2,0,0
+1791147363526,2,POST create student,201,Created,Load Test Users 1-14,text,true,,297,227,20,20,http://localhost:3000/students,2,0,0
+1791147360521,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,4288,252,20,20,null,0,0,0
+1791147362021,4,GET all students,200,OK,Load Test Users 1-17,text,true,,3980,125,20,20,http://localhost:3000/students,4,0,0
+1791147363525,3,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147363527,3,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/54,3,0,0
+1791147360537,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,4359,252,20,20,null,0,0,0
+1791147362037,3,GET all students,200,OK,Load Test Users 1-5,text,true,,4051,125,20,20,http://localhost:3000/students,3,0,0
+1791147363541,4,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147363547,3,POST create student,201,Created,Load Test Users 1-2,text,true,,314,244,20,20,http://localhost:3000/students,2,0,0
+1791147361015,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,4359,252,20,20,null,0,0,0
+1791147362515,3,GET all students,200,OK,Load Test Users 1-18,text,true,,4051,125,20,20,http://localhost:3000/students,3,0,0
+1791147364019,2,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147364023,3,POST create student,201,Created,Load Test Users 1-15,text,true,,308,238,20,20,http://localhost:3000/students,3,0,0
+1791147364034,3,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/55,3,0,0
+1791147361037,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,4432,252,20,20,null,0,0,0
+1791147362537,2,GET all students,200,OK,Load Test Users 1-6,text,true,,4124,125,20,20,http://localhost:3000/students,2,0,0
+1791147364040,1,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147364045,2,POST create student,201,Created,Load Test Users 1-3,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147364524,2,POST create student,201,Created,Load Test Users 1-16,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147361522,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,4432,252,20,20,null,0,0,0
+1791147363023,1,GET all students,200,OK,Load Test Users 1-19,text,true,,4124,125,20,20,http://localhost:3000/students,1,0,0
+1791147364525,2,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147364526,2,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/56,2,0,0
+1791147361536,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,4500,252,20,20,null,0,0,0
+1791147363036,2,GET all students,200,OK,Load Test Users 1-7,text,true,,4192,125,20,20,http://localhost:3000/students,2,0,0
+1791147364539,2,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147364540,2,POST create student,201,Created,Load Test Users 1-4,text,true,,308,238,20,20,http://localhost:3000/students,2,0,0
+1791147364706,2,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/57,2,0,0
+1791147365029,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/58,2,0,0
+1791147365030,2,POST create student,201,Created,Load Test Users 1-17,text,true,,313,243,20,20,http://localhost:3000/students,2,0,0
+1791147362025,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,4630,252,20,20,null,0,0,0
+1791147363525,4,GET all students,200,OK,Load Test Users 1-20,text,true,,4322,125,20,20,http://localhost:3000/students,4,0,0
+1791147365030,3,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147362040,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,4630,252,20,20,null,0,0,0
+1791147363541,2,GET all students,200,OK,Load Test Users 1-8,text,true,,4322,125,20,20,http://localhost:3000/students,2,0,0
+1791147365043,1,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147365046,1,POST create student,201,Created,Load Test Users 1-5,text,true,,310,240,20,20,http://localhost:3000/students,1,0,0
+1791147365051,1,GET newly created student,200,OK,Load Test Users 1-2,text,true,,309,128,20,20,http://localhost:3000/students/59,1,0,0
+1791147365521,2,POST create student,201,Created,Load Test Users 1-18,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147365527,1,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/60,1,0,0
+1791147362534,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,4775,252,20,20,null,0,0,0
+1791147364034,3,GET all students,200,OK,Load Test Users 1-9,text,true,,4467,125,20,20,http://localhost:3000/students,3,0,0
+1791147365537,2,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147365541,2,POST create student,201,Created,Load Test Users 1-6,text,true,,307,237,20,20,http://localhost:3000/students,1,0,0
+1791147365548,1,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/61,1,0,0
+1791147366028,2,POST create student,201,Created,Load Test Users 1-19,text,true,,311,241,20,20,http://localhost:3000/students,2,0,0
+1791147366027,4,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/62,4,0,0
+1791147363036,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,4921,252,20,20,null,0,0,0
+1791147364536,2,GET all students,200,OK,Load Test Users 1-10,text,true,,4613,125,20,20,http://localhost:3000/students,2,0,0
+1791147366038,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147366042,1,POST create student,201,Created,Load Test Users 1-7,text,true,,297,227,20,20,http://localhost:3000/students,1,0,0
+1791147366043,1,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/63,1,0,0
+1791147366533,3,POST create student,201,Created,Load Test Users 1-20,text,true,,314,244,20,20,http://localhost:3000/students,3,0,0
+1791147366534,3,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/64,3,0,0
+1791147363531,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,5064,252,20,20,null,0,0,0
+1791147365031,3,GET all students,200,OK,Load Test Users 1-11,text,true,,4756,125,20,20,http://localhost:3000/students,3,0,0
+1791147366534,4,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147366545,2,POST create student,201,Created,Load Test Users 1-8,text,true,,308,238,20,20,http://localhost:3000/students,2,0,0
+1791147366548,1,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/65,1,0,0
+1791147367024,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/66,2,0,0
+1791147367040,1,POST create student,201,Created,Load Test Users 1-9,text,true,,312,242,20,20,http://localhost:3000/students,1,0,0
+1791147364037,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,5208,252,20,20,null,0,0,0
+1791147365537,2,GET all students,200,OK,Load Test Users 1-12,text,true,,4900,125,20,20,http://localhost:3000/students,2,0,0
+1791147367039,2,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147367043,1,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/67,1,0,0
+1791147367531,3,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/68,2,0,0
+1791147364528,3009,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,5348,252,20,20,null,0,0,0
+1791147366028,7,GET all students,200,OK,Load Test Users 1-13,text,true,,5040,125,20,20,http://localhost:3000/students,7,0,0
+1791147367536,1,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147367541,1,POST create student,201,Created,Load Test Users 1-10,text,true,,312,242,20,20,http://localhost:3000/students,1,0,0
+1791147367543,2,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/69,2,0,0
+1791147364709,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,5406,252,20,20,null,0,0,0
+1791147366209,2,GET all students,200,OK,Load Test Users 1-1,text,true,,5098,125,20,20,http://localhost:3000/students,2,0,0
+1791147367711,3,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147365031,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,5406,252,20,20,null,0,0,0
+1791147366532,2,GET all students,200,OK,Load Test Users 1-14,text,true,,5098,125,20,20,http://localhost:3000/students,2,0,0
+1791147368035,3,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147368038,2,GET newly created student,200,OK,Load Test Users 1-20,text,true,,309,128,20,20,http://localhost:3000/students/70,2,0,0
+1791147368039,2,POST create student,201,Created,Load Test Users 1-11,text,true,,308,238,20,20,http://localhost:3000/students,2,0,0
+1791147368048,2,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/71,2,0,0
+1791147365052,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,5550,252,20,20,null,0,0,0
+1791147366552,2,GET all students,200,OK,Load Test Users 1-2,text,true,,5242,125,20,20,http://localhost:3000/students,2,0,0
+1791147368054,1,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147365528,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,5550,252,20,20,null,0,0,0
+1791147367029,2,GET all students,200,OK,Load Test Users 1-15,text,true,,5242,125,20,20,http://localhost:3000/students,2,0,0
+1791147368531,2,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147368542,3,POST create student,201,Created,Load Test Users 1-12,text,true,,313,243,20,20,http://localhost:3000/students,3,0,0
+1791147368542,3,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/72,3,0,0
+1791147365549,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,5623,252,20,20,null,0,0,0
+1791147367050,1,GET all students,200,OK,Load Test Users 1-3,text,true,,5315,125,20,20,http://localhost:3000/students,1,0,0
+1791147368552,1,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147366031,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,5623,252,20,20,null,0,0,0
+1791147367532,2,GET all students,200,OK,Load Test Users 1-16,text,true,,5315,125,20,20,http://localhost:3000/students,2,0,0
+1791147369035,3,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147369039,2,POST create student,201,Created,Load Test Users 1-13,text,true,,310,240,20,20,http://localhost:3000/students,2,0,0
+1791147369044,2,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/73,2,0,0
+1791147366044,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,5696,252,20,20,null,0,0,0
+1791147367544,2,GET all students,200,OK,Load Test Users 1-4,text,true,,5388,125,20,20,http://localhost:3000/students,2,0,0
+1791147369047,3,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147369216,3,POST create student,201,Created,Load Test Users 1-1,text,true,,312,242,20,20,http://localhost:3000/students,3,0,0
+1791147369540,2,POST create student,201,Created,Load Test Users 1-14,text,true,,307,237,20,20,http://localhost:3000/students,2,0,0
+1791147366537,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,5765,252,20,20,null,0,0,0
+1791147368038,4,GET all students,200,OK,Load Test Users 1-17,text,true,,5457,125,20,20,http://localhost:3000/students,3,0,0
+1791147369543,2,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147369543,2,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/74,2,0,0
+1791147366550,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,5765,252,20,20,null,0,0,0
+1791147368050,2,GET all students,200,OK,Load Test Users 1-5,text,true,,5457,125,20,20,http://localhost:3000/students,2,0,0
+1791147369554,2,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147369557,1,POST create student,201,Created,Load Test Users 1-2,text,true,,311,241,20,20,http://localhost:3000/students,1,0,0
+1791147367026,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,5765,252,20,20,null,0,0,0
+1791147368527,1,GET all students,200,OK,Load Test Users 1-18,text,true,,5457,125,20,20,http://localhost:3000/students,1,0,0
+1791147370030,3,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147370035,3,POST create student,201,Created,Load Test Users 1-15,text,true,,297,227,20,20,http://localhost:3000/students,3,0,0
+1791147370047,2,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/75,2,0,0
+1791147367045,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,5839,252,20,20,null,0,0,0
+1791147368545,2,GET all students,200,OK,Load Test Users 1-6,text,true,,5531,125,20,20,http://localhost:3000/students,2,0,0
+1791147370048,3,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147370054,2,POST create student,201,Created,Load Test Users 1-3,text,true,,314,244,20,20,http://localhost:3000/students,2,0,0
+1791147367534,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,5839,252,20,20,null,0,0,0
+1791147369035,2,GET all students,200,OK,Load Test Users 1-19,text,true,,5531,125,20,20,http://localhost:3000/students,2,0,0
+1791147370539,2,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147370540,2,POST create student,201,Created,Load Test Users 1-16,text,true,,308,238,20,20,http://localhost:3000/students,1,0,0
+1791147370542,2,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/76,2,0,0
+1791147367545,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,5910,252,20,20,null,0,0,0
+1791147369047,1,GET all students,200,OK,Load Test Users 1-7,text,true,,5602,125,20,20,http://localhost:3000/students,1,0,0
+1791147370549,1,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147370550,3,POST create student,201,Created,Load Test Users 1-4,text,true,,312,242,20,20,http://localhost:3000/students,3,0,0
+1791147370720,2,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/77,2,0,0
+1791147371043,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/78,2,0,0
+1791147368040,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,6051,252,20,20,null,0,0,0
+1791147369542,1,GET all students,200,OK,Load Test Users 1-20,text,true,,5743,125,20,20,http://localhost:3000/students,1,0,0
+1791147371044,2,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147371045,2,POST create student,201,Created,Load Test Users 1-17,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147368051,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,6051,252,20,20,null,0,0,0
+1791147369552,2,GET all students,200,OK,Load Test Users 1-8,text,true,,5743,125,20,20,http://localhost:3000/students,2,0,0
+1791147371055,2,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147371057,2,POST create student,201,Created,Load Test Users 1-5,text,true,,308,238,20,20,http://localhost:3000/students,1,0,0
+1791147371059,1,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/79,1,0,0
+1791147371534,2,POST create student,201,Created,Load Test Users 1-18,text,true,,313,243,20,20,http://localhost:3000/students,2,0,0
+1791147371539,3,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/80,3,0,0
+1791147371552,2,POST create student,201,Created,Load Test Users 1-6,text,true,,310,240,20,20,http://localhost:3000/students,2,0,0
+1791147368546,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,6181,252,20,20,null,0,0,0
+1791147370048,2,GET all students,200,OK,Load Test Users 1-9,text,true,,5873,125,20,20,http://localhost:3000/students,2,0,0
+1791147371551,3,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147371557,1,GET newly created student,200,OK,Load Test Users 1-3,text,true,,309,128,20,20,http://localhost:3000/students/81,1,0,0
+1791147372041,3,POST create student,201,Created,Load Test Users 1-19,text,true,,312,242,20,20,http://localhost:3000/students,3,0,0
+1791147372043,2,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/82,2,0,0
+1791147369047,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,6325,252,20,20,null,0,0,0
+1791147370547,1,GET all students,200,OK,Load Test Users 1-10,text,true,,6017,125,20,20,http://localhost:3000/students,1,0,0
+1791147372049,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147372051,2,POST create student,201,Created,Load Test Users 1-7,text,true,,307,237,20,20,http://localhost:3000/students,2,0,0
+1791147372053,1,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/83,1,0,0
+1791147372546,2,POST create student,201,Created,Load Test Users 1-20,text,true,,311,241,20,20,http://localhost:3000/students,2,0,0
+1791147372548,1,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/84,1,0,0
+1791147369545,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,6471,252,20,20,null,0,0,0
+1791147371046,2,GET all students,200,OK,Load Test Users 1-11,text,true,,6163,125,20,20,http://localhost:3000/students,2,0,0
+1791147372548,2,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147372558,2,POST create student,201,Created,Load Test Users 1-8,text,true,,297,227,20,20,http://localhost:3000/students,2,0,0
+1791147372559,2,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/85,2,0,0
+1791147373037,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/86,2,0,0
+1791147370049,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,6614,252,20,20,null,0,0,0
+1791147371550,2,GET all students,200,OK,Load Test Users 1-12,text,true,,6306,125,20,20,http://localhost:3000/students,2,0,0
+1791147373053,1,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147373055,1,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/87,1,0,0
+1791147373055,1,POST create student,201,Created,Load Test Users 1-9,text,true,,314,244,20,20,http://localhost:3000/students,1,0,0
+1791147373545,1,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/88,1,0,0
+1791147370544,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,6758,252,20,20,null,0,0,0
+1791147372044,1,GET all students,200,OK,Load Test Users 1-13,text,true,,6450,125,20,20,http://localhost:3000/students,1,0,0
+1791147373546,1,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147373552,1,POST create student,201,Created,Load Test Users 1-10,text,true,,308,238,20,20,http://localhost:3000/students,1,0,0
+1791147373553,1,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,302,128,20,20,http://localhost:3000/students/89,1,0,0
+1791147370722,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,6826,252,20,20,null,0,0,0
+1791147372222,2,GET all students,200,OK,Load Test Users 1-1,text,true,,6518,125,20,20,http://localhost:3000/students,2,0,0
+1791147373725,1,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147371045,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,6826,252,20,20,null,0,0,0
+1791147372545,2,GET all students,200,OK,Load Test Users 1-14,text,true,,6518,125,20,20,http://localhost:3000/students,2,0,0
+1791147374047,1,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147374048,2,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,306,128,20,20,http://localhost:3000/students/90,2,0,0
+1791147374050,1,POST create student,201,Created,Load Test Users 1-11,text,true,,312,242,20,20,http://localhost:3000/students,1,0,0
+1791147374060,1,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,292,128,20,20,http://localhost:3000/students/91,1,0,0
+1791147371061,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,6956,252,20,20,null,0,0,0
+1791147372561,1,GET all students,200,OK,Load Test Users 1-2,text,true,,6648,125,20,20,http://localhost:3000/students,1,0,0
+1791147374062,1,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147371543,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,6956,252,20,20,null,0,0,0
+1791147373043,1,GET all students,200,OK,Load Test Users 1-15,text,true,,6648,125,20,20,http://localhost:3000/students,1,0,0
+1791147374544,1,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147374554,2,POST create student,201,Created,Load Test Users 1-12,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147374556,2,GET newly created student,200,OK,Load Test Users 1-9,text,true,,309,128,20,20,http://localhost:3000/students/92,2,0,0
+1791147371558,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,7031,252,20,20,null,0,0,0
+1791147373058,1,GET all students,200,OK,Load Test Users 1-3,text,true,,6723,125,20,20,http://localhost:3000/students,1,0,0
+1791147374559,2,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147375046,3,POST create student,201,Created,Load Test Users 1-13,text,true,,308,238,20,20,http://localhost:3000/students,3,0,0
+1791147372045,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,7031,252,20,20,null,0,0,0
+1791147373545,2,GET all students,200,OK,Load Test Users 1-16,text,true,,6723,125,20,20,http://localhost:3000/students,2,0,0
+1791147375046,4,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147375053,1,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/93,1,0,0
+1791147372055,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,7100,252,20,20,null,0,0,0
+1791147373555,1,GET all students,200,OK,Load Test Users 1-4,text,true,,6792,125,20,20,http://localhost:3000/students,1,0,0
+1791147375055,2,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147375225,2,POST create student,201,Created,Load Test Users 1-1,text,true,,313,243,20,20,http://localhost:3000/students,2,0,0
+1791147375549,2,POST create student,201,Created,Load Test Users 1-14,text,true,,310,240,20,20,http://localhost:3000/students,2,0,0
+1791147372550,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,7100,252,20,20,null,0,0,0
+1791147374049,1,GET all students,200,OK,Load Test Users 1-17,text,true,,6792,125,20,20,http://localhost:3000/students,1,0,0
+1791147375551,2,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147375551,3,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/94,3,0,0
+1791147372562,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,7173,252,20,20,null,0,0,0
+1791147374061,2,GET all students,200,OK,Load Test Users 1-5,text,true,,6865,125,20,20,http://localhost:3000/students,2,0,0
+1791147375563,2,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147375564,2,POST create student,201,Created,Load Test Users 1-2,text,true,,312,242,20,20,http://localhost:3000/students,2,0,0
+1791147373039,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,7173,252,20,20,null,0,0,0
+1791147374539,2,GET all students,200,OK,Load Test Users 1-18,text,true,,6865,125,20,20,http://localhost:3000/students,2,0,0
+1791147376041,2,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147376046,2,POST create student,201,Created,Load Test Users 1-15,text,true,,308,237,20,20,http://localhost:3000/students,2,0,0
+1791147376057,2,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/95,2,0,0
+1791147373056,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,7246,252,20,20,null,0,0,0
+1791147374555,2,GET all students,200,OK,Load Test Users 1-6,text,true,,6938,125,20,20,http://localhost:3000/students,2,0,0
+1791147376058,2,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147376062,1,POST create student,201,Created,Load Test Users 1-3,text,true,,312,241,20,20,http://localhost:3000/students,1,0,0
+1791147373546,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,7315,252,20,20,null,0,0,0
+1791147375046,4,GET all students,200,OK,Load Test Users 1-19,text,true,,7007,125,20,20,http://localhost:3000/students,4,0,0
+1791147376550,3,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147376550,3,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,303,128,20,20,http://localhost:3000/students/96,3,0,0
+1791147376551,3,POST create student,201,Created,Load Test Users 1-16,text,true,,298,227,20,20,http://localhost:3000/students,3,0,0
+1791147373554,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,7315,252,20,20,null,0,0,0
+1791147375054,1,GET all students,200,OK,Load Test Users 1-7,text,true,,7007,125,20,20,http://localhost:3000/students,1,0,0
+1791147376556,1,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147376557,2,POST create student,201,Created,Load Test Users 1-4,text,true,,315,244,20,20,http://localhost:3000/students,2,0,0
+1791147376728,1,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,308,128,20,20,http://localhost:3000/students/97,1,0,0
+1791147377052,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,305,128,20,20,http://localhost:3000/students/98,2,0,0
+1791147374050,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,7460,252,20,20,null,0,0,0
+1791147375550,3,GET all students,200,OK,Load Test Users 1-20,text,true,,7152,125,20,20,http://localhost:3000/students,3,0,0
+1791147377053,2,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147377054,2,POST create student,201,Created,Load Test Users 1-17,text,true,,309,238,20,20,http://localhost:3000/students,1,0,0
+1791147374061,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,7460,252,20,20,null,0,0,0
+1791147375562,1,GET all students,200,OK,Load Test Users 1-8,text,true,,7152,125,20,20,http://localhost:3000/students,1,0,0
+1791147377064,2,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147377067,3,POST create student,201,Created,Load Test Users 1-5,text,true,,313,242,20,20,http://localhost:3000/students,3,0,0
+1791147377067,4,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,307,128,20,20,http://localhost:3000/students/99,4,0,0
+1791147377544,2,POST create student,201,Created,Load Test Users 1-18,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147377549,2,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/100,2,0,0
+1791147377561,1,POST create student,201,Created,Load Test Users 1-6,text,true,,309,238,20,20,http://localhost:3000/students,1,0,0
+1791147374558,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,7602,252,20,20,null,0,0,0
+1791147376058,2,GET all students,200,OK,Load Test Users 1-9,text,true,,7294,125,20,20,http://localhost:3000/students,2,0,0
+1791147377561,2,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147377565,2,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/101,1,0,0
+1791147378054,2,POST create student,201,Created,Load Test Users 1-19,text,true,,314,243,20,20,http://localhost:3000/students,2,0,0
+1791147378055,2,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/102,2,0,0
+1791147375055,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,7734,252,20,20,null,0,0,0
+1791147376555,1,GET all students,200,OK,Load Test Users 1-10,text,true,,7426,125,20,20,http://localhost:3000/students,1,0,0
+1791147378057,1,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147378058,1,POST create student,201,Created,Load Test Users 1-7,text,true,,311,240,20,20,http://localhost:3000/students,1,0,0
+1791147378060,1,GET newly created student,200,OK,Load Test Users 1-4,text,true,,310,129,20,20,http://localhost:3000/students/103,1,0,0
+1791147378555,3,POST create student,201,Created,Load Test Users 1-20,text,true,,313,242,20,20,http://localhost:3000/students,3,0,0
+1791147378556,3,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/104,3,0,0
+1791147375555,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,7880,252,20,20,null,0,0,0
+1791147377055,2,GET all students,200,OK,Load Test Users 1-11,text,true,,7572,125,20,20,http://localhost:3000/students,2,0,0
+1791147378558,2,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147378567,2,POST create student,201,Created,Load Test Users 1-8,text,true,,308,237,20,20,http://localhost:3000/students,2,0,0
+1791147378571,2,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/105,2,0,0
+1791147379047,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/106,2,0,0
+1791147376059,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,8028,252,20,20,null,0,0,0
+1791147377559,2,GET all students,200,OK,Load Test Users 1-12,text,true,,7720,125,20,20,http://localhost:3000/students,2,0,0
+1791147379062,1,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147379064,1,POST create student,201,Created,Load Test Users 1-9,text,true,,312,241,20,20,http://localhost:3000/students,1,0,0
+1791147379063,3,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/107,3,0,0
+1791147376553,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,8173,252,20,20,null,0,0,0
+1791147378053,3,GET all students,200,OK,Load Test Users 1-13,text,true,,7865,125,20,20,http://localhost:3000/students,3,0,0
+1791147379556,3,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147379556,3,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/108,3,0,0
+1791147379559,2,POST create student,201,Created,Load Test Users 1-10,text,true,,298,227,20,20,http://localhost:3000/students,2,0,0
+1791147379560,2,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/109,1,0,0
+1791147376730,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,8245,252,20,20,null,0,0,0
+1791147378230,2,GET all students,200,OK,Load Test Users 1-1,text,true,,7937,125,20,20,http://localhost:3000/students,2,0,0
+1791147379733,2,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147377054,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,8245,252,20,20,null,0,0,0
+1791147378555,2,GET all students,200,OK,Load Test Users 1-14,text,true,,7937,125,20,20,http://localhost:3000/students,2,0,0
+1791147380057,2,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147380059,2,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/110,2,0,0
+1791147380061,2,POST create student,201,Created,Load Test Users 1-11,text,true,,315,244,20,20,http://localhost:3000/students,2,0,0
+1791147380070,2,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/111,2,0,0
+1791147377071,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,8388,252,20,20,null,0,0,0
+1791147378571,2,GET all students,200,OK,Load Test Users 1-2,text,true,,8080,125,20,20,http://localhost:3000/students,2,0,0
+1791147380073,2,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147377551,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,8388,252,20,20,null,0,0,0
+1791147379052,1,GET all students,200,OK,Load Test Users 1-15,text,true,,8080,125,20,20,http://localhost:3000/students,1,0,0
+1791147380553,1,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147380564,1,POST create student,201,Created,Load Test Users 1-12,text,true,,309,238,20,20,http://localhost:3000/students,1,0,0
+1791147380566,4,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/112,4,0,0
+1791147377567,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,8461,252,20,20,null,0,0,0
+1791147379067,1,GET all students,200,OK,Load Test Users 1-3,text,true,,8153,125,20,20,http://localhost:3000/students,1,0,0
+1791147380569,1,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147381059,3,POST create student,201,Created,Load Test Users 1-13,text,true,,313,242,20,20,http://localhost:3000/students,3,0,0
+1791147378057,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,8461,252,20,20,null,0,0,0
+1791147379558,2,GET all students,200,OK,Load Test Users 1-16,text,true,,8153,125,20,20,http://localhost:3000/students,2,0,0
+1791147381060,5,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147381062,4,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/113,4,0,0
+1791147378061,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,8520,252,20,20,null,0,0,0
+1791147379562,2,GET all students,200,OK,Load Test Users 1-4,text,true,,8212,125,20,20,http://localhost:3000/students,1,0,0
+1791147381064,4,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147381236,2,POST create student,201,Created,Load Test Users 1-1,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147381560,2,POST create student,201,Created,Load Test Users 1-14,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147378559,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,8520,252,20,20,null,0,0,0
+1791147380060,2,GET all students,200,OK,Load Test Users 1-17,text,true,,8212,125,20,20,http://localhost:3000/students,2,0,0
+1791147381562,2,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147381563,2,GET newly created student,200,OK,Load Test Users 1-11,text,true,,310,129,20,20,http://localhost:3000/students/114,2,0,0
+1791147381576,1,POST create student,201,Created,Load Test Users 1-2,text,true,,314,243,20,20,http://localhost:3000/students,1,0,0
+1791147378574,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,8596,252,20,20,null,0,0,0
+1791147380074,2,GET all students,200,OK,Load Test Users 1-5,text,true,,8288,125,20,20,http://localhost:3000/students,2,0,0
+1791147381577,1,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147379049,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,8596,252,20,20,null,0,0,0
+1791147380550,1,GET all students,200,OK,Load Test Users 1-18,text,true,,8288,125,20,20,http://localhost:3000/students,1,0,0
+1791147382052,1,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147382055,1,POST create student,201,Created,Load Test Users 1-15,text,true,,311,240,20,20,http://localhost:3000/students,1,0,0
+1791147382067,2,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/115,2,0,0
+1791147379066,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,8666,252,20,20,null,0,0,0
+1791147380566,2,GET all students,200,OK,Load Test Users 1-6,text,true,,8358,125,20,20,http://localhost:3000/students,2,0,0
+1791147382069,1,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147382071,1,POST create student,201,Created,Load Test Users 1-3,text,true,,313,242,20,20,http://localhost:3000/students,1,0,0
+1791147382563,3,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/116,3,0,0
+1791147382566,4,POST create student,201,Created,Load Test Users 1-16,text,true,,308,237,20,20,http://localhost:3000/students,4,0,0
+1791147379559,3012,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,8740,252,20,20,null,0,0,0
+1791147381060,4,GET all students,200,OK,Load Test Users 1-19,text,true,,8432,125,20,20,http://localhost:3000/students,4,0,0
+1791147382564,7,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,7,0,0
+1791147379562,3010,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,8740,252,20,20,null,0,0,0
+1791147381062,5,GET all students,200,OK,Load Test Users 1-7,text,true,,8432,125,20,20,http://localhost:3000/students,5,0,0
+1791147382568,4,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147382569,4,POST create student,201,Created,Load Test Users 1-4,text,true,,312,241,20,20,http://localhost:3000/students,4,0,0
+1791147382739,2,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/117,2,0,0
+1791147383062,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/118,2,0,0
+1791147383065,3,POST create student,201,Created,Load Test Users 1-17,text,true,,298,227,20,20,http://localhost:3000/students,3,0,0
+1791147380061,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,8884,252,20,20,null,0,0,0
+1791147381561,2,GET all students,200,OK,Load Test Users 1-20,text,true,,8576,125,20,20,http://localhost:3000/students,2,0,0
+1791147383064,4,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147380073,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,8884,252,20,20,null,0,0,0
+1791147381573,1,GET all students,200,OK,Load Test Users 1-8,text,true,,8576,125,20,20,http://localhost:3000/students,1,0,0
+1791147383075,2,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147383078,2,POST create student,201,Created,Load Test Users 1-5,text,true,,315,244,20,20,http://localhost:3000/students,2,0,0
+1791147383078,3,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/119,2,0,0
+1791147383554,2,POST create student,201,Created,Load Test Users 1-18,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147383557,2,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/120,2,0,0
+1791147383570,2,POST create student,201,Created,Load Test Users 1-6,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147383573,2,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/121,2,0,0
+1791147380570,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,9105,252,20,20,null,0,0,0
+1791147382070,3,GET all students,200,OK,Load Test Users 1-9,text,true,,8797,125,20,20,http://localhost:3000/students,3,0,0
+1791147383573,3,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147384071,1,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/122,1,0,0
+1791147384072,1,POST create student,201,Created,Load Test Users 1-19,text,true,,313,242,20,20,http://localhost:3000/students,1,0,0
+1791147384073,1,POST create student,201,Created,Load Test Users 1-7,text,true,,309,238,20,20,http://localhost:3000/students,1,0,0
+1791147381066,3009,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,9174,252,20,20,null,0,0,0
+1791147382567,5,GET all students,200,OK,Load Test Users 1-10,text,true,,8866,125,20,20,http://localhost:3000/students,5,0,0
+1791147384073,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147384074,2,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/123,2,0,0
+1791147384569,2,POST create student,201,Created,Load Test Users 1-20,text,true,,314,243,20,20,http://localhost:3000/students,2,0,0
+1791147384569,3,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/124,3,0,0
+1791147381565,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,9306,252,20,20,null,0,0,0
+1791147383066,3,GET all students,200,OK,Load Test Users 1-11,text,true,,8998,125,20,20,http://localhost:3000/students,3,0,0
+1791147384570,3,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147384578,2,POST create student,201,Created,Load Test Users 1-8,text,true,,311,240,20,20,http://localhost:3000/students,2,0,0
+1791147384581,3,GET newly created student,200,OK,Load Test Users 1-5,text,true,,310,129,20,20,http://localhost:3000/students/125,3,0,0
+1791147385057,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/126,2,0,0
+1791147382069,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,9452,252,20,20,null,0,0,0
+1791147383569,3,GET all students,200,OK,Load Test Users 1-12,text,true,,9144,125,20,20,http://localhost:3000/students,3,0,0
+1791147385072,2,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147385073,3,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/127,3,0,0
+1791147385077,3,POST create student,201,Created,Load Test Users 1-9,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147382568,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,9526,252,20,20,null,0,0,0
+1791147384068,2,GET all students,200,OK,Load Test Users 1-13,text,true,,9218,125,20,20,http://localhost:3000/students,2,0,0
+1791147385571,2,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147385574,2,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/128,1,0,0
+1791147385575,2,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/129,2,0,0
+1791147385576,2,POST create student,201,Created,Load Test Users 1-10,text,true,,308,237,20,20,http://localhost:3000/students,2,0,0
+1791147382741,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,9670,252,20,20,null,0,0,0
+1791147384242,1,GET all students,200,OK,Load Test Users 1-1,text,true,,9362,125,20,20,http://localhost:3000/students,1,0,0
+1791147385743,3,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147383065,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,9670,252,20,20,null,0,0,0
+1791147384565,3,GET all students,200,OK,Load Test Users 1-14,text,true,,9362,125,20,20,http://localhost:3000/students,3,0,0
+1791147386068,2,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147386072,1,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/130,1,0,0
+1791147386074,0,POST create student,201,Created,Load Test Users 1-11,text,true,,312,241,20,20,http://localhost:3000/students,0,0,0
+1791147386081,2,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/131,2,0,0
+1791147383082,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,9817,252,20,20,null,0,0,0
+1791147384582,3,GET all students,200,OK,Load Test Users 1-2,text,true,,9509,125,20,20,http://localhost:3000/students,3,0,0
+1791147386085,1,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147383560,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,9817,252,20,20,null,0,0,0
+1791147385060,2,GET all students,200,OK,Load Test Users 1-15,text,true,,9509,125,20,20,http://localhost:3000/students,2,0,0
+1791147386563,2,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147386575,3,POST create student,201,Created,Load Test Users 1-12,text,true,,298,227,20,20,http://localhost:3000/students,2,0,0
+1791147383575,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,9817,252,20,20,null,0,0,0
+1791147385076,2,GET all students,200,OK,Load Test Users 1-3,text,true,,9509,125,20,20,http://localhost:3000/students,2,0,0
+1791147386578,3,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147386581,3,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/132,3,0,0
+1791147387073,3,POST create student,201,Created,Load Test Users 1-13,text,true,,315,244,20,20,http://localhost:3000/students,3,0,0
+1791147384073,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,9891,252,20,20,null,0,0,0
+1791147385573,2,GET all students,200,OK,Load Test Users 1-16,text,true,,9583,125,20,20,http://localhost:3000/students,2,0,0
+1791147387075,2,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147387078,3,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/133,3,0,0
+1791147384076,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,9960,252,20,20,null,0,0,0
+1791147385576,2,GET all students,200,OK,Load Test Users 1-4,text,true,,9652,125,20,20,http://localhost:3000/students,2,0,0
+1791147387079,3,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147387247,2,POST create student,201,Created,Load Test Users 1-1,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147387571,2,POST create student,201,Created,Load Test Users 1-14,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147384573,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,9960,252,20,20,null,0,0,0
+1791147386073,0,GET all students,200,OK,Load Test Users 1-17,text,true,,9652,125,20,20,http://localhost:3000/students,0,0,0
+1791147387574,2,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147387575,2,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/134,2,0,0
+1791147387586,2,POST create student,201,Created,Load Test Users 1-2,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147384584,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,10033,252,20,20,null,0,0,0
+1791147386085,0,GET all students,200,OK,Load Test Users 1-5,text,true,,9725,125,20,20,http://localhost:3000/students,0,0,0
+1791147387586,2,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147385059,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,10033,252,20,20,null,0,0,0
+1791147386559,2,GET all students,200,OK,Load Test Users 1-18,text,true,,9725,125,20,20,http://localhost:3000/students,2,0,0
+1791147388062,2,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147388066,2,POST create student,201,Created,Load Test Users 1-15,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147388078,2,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/135,2,0,0
+1791147385077,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,10092,252,20,20,null,0,0,0
+1791147386577,2,GET all students,200,OK,Load Test Users 1-6,text,true,,9784,125,20,20,http://localhost:3000/students,2,0,0
+1791147388080,1,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147388082,2,POST create student,201,Created,Load Test Users 1-3,text,true,,314,243,20,20,http://localhost:3000/students,2,0,0
+1791147388577,1,GET newly created student,200,OK,Load Test Users 1-13,text,true,,310,129,20,20,http://localhost:3000/students/136,1,0,0
+1791147388578,1,POST create student,201,Created,Load Test Users 1-16,text,true,,311,240,20,20,http://localhost:3000/students,1,0,0
+1791147385576,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,10168,252,20,20,null,0,0,0
+1791147387076,2,GET all students,200,OK,Load Test Users 1-19,text,true,,9860,125,20,20,http://localhost:3000/students,2,0,0
+1791147388579,0,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,0,0,0
+1791147385577,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,10168,252,20,20,null,0,0,0
+1791147387077,3,GET all students,200,OK,Load Test Users 1-7,text,true,,9860,125,20,20,http://localhost:3000/students,2,0,0
+1791147388580,1,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147388583,1,POST create student,201,Created,Load Test Users 1-4,text,true,,313,242,20,20,http://localhost:3000/students,1,0,0
+1791147388750,2,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/137,2,0,0
+1791147389074,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/138,2,0,0
+1791147386073,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,10312,252,20,20,null,0,0,0
+1791147387573,3,GET all students,200,OK,Load Test Users 1-20,text,true,,10004,125,20,20,http://localhost:3000/students,2,0,0
+1791147389076,1,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147389077,1,POST create student,201,Created,Load Test Users 1-17,text,true,,308,237,20,20,http://localhost:3000/students,1,0,0
+1791147386083,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,10312,252,20,20,null,0,0,0
+1791147387583,2,GET all students,200,OK,Load Test Users 1-8,text,true,,10004,125,20,20,http://localhost:3000/students,2,0,0
+1791147389086,1,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147389089,1,POST create student,201,Created,Load Test Users 1-5,text,true,,312,241,20,20,http://localhost:3000/students,1,0,0
+1791147389088,2,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/139,2,0,0
+1791147389565,2,POST create student,201,Created,Load Test Users 1-18,text,true,,298,227,20,20,http://localhost:3000/students,2,0,0
+1791147389568,2,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/140,2,0,0
+1791147389582,2,POST create student,201,Created,Load Test Users 1-6,text,true,,315,244,20,20,http://localhost:3000/students,2,0,0
+1791147389585,2,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/141,1,0,0
+1791147386584,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,10531,252,20,20,null,0,0,0
+1791147388085,1,GET all students,200,OK,Load Test Users 1-9,text,true,,10223,125,20,20,http://localhost:3000/students,1,0,0
+1791147389587,2,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147390080,2,POST create student,201,Created,Load Test Users 1-19,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147390079,5,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/142,5,0,0
+1791147390082,3,POST create student,201,Created,Load Test Users 1-7,text,true,,313,242,20,20,http://localhost:3000/students,3,0,0
+1791147387081,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,10604,252,20,20,null,0,0,0
+1791147388582,1,GET all students,200,OK,Load Test Users 1-10,text,true,,10296,125,20,20,http://localhost:3000/students,1,0,0
+1791147390084,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147390084,2,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/143,2,0,0
+1791147390578,2,POST create student,201,Created,Load Test Users 1-20,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147390579,3,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/144,3,0,0
+1791147387577,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,10747,252,20,20,null,0,0,0
+1791147389078,2,GET all students,200,OK,Load Test Users 1-11,text,true,,10439,125,20,20,http://localhost:3000/students,2,0,0
+1791147390580,3,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147390588,2,POST create student,201,Created,Load Test Users 1-8,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147390591,1,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/145,1,0,0
+1791147391068,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/146,2,0,0
+1791147391085,1,GET newly created student,200,OK,Load Test Users 1-6,text,true,,310,129,20,20,http://localhost:3000/students/147,1,0,0
+1791147388081,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,10955,252,20,20,null,0,0,0
+1791147389582,3,GET all students,200,OK,Load Test Users 1-12,text,true,,10647,125,20,20,http://localhost:3000/students,3,0,0
+1791147391086,1,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147391089,1,POST create student,201,Created,Load Test Users 1-9,text,true,,314,243,20,20,http://localhost:3000/students,1,0,0
+1791147388578,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,11025,252,20,20,null,0,0,0
+1791147390079,4,GET all students,200,OK,Load Test Users 1-13,text,true,,10717,125,20,20,http://localhost:3000/students,4,0,0
+1791147391584,1,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147391585,3,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/148,3,0,0
+1791147391587,2,POST create student,201,Created,Load Test Users 1-10,text,true,,311,240,20,20,http://localhost:3000/students,2,0,0
+1791147391586,4,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/149,4,0,0
+1791147388752,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,11099,252,20,20,null,0,0,0
+1791147390253,2,GET all students,200,OK,Load Test Users 1-1,text,true,,10791,125,20,20,http://localhost:3000/students,2,0,0
+1791147391755,2,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147389077,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,11099,252,20,20,null,0,0,0
+1791147390577,2,GET all students,200,OK,Load Test Users 1-14,text,true,,10791,125,20,20,http://localhost:3000/students,2,0,0
+1791147392080,3,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147392082,3,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/150,3,0,0
+1791147392084,2,POST create student,201,Created,Load Test Users 1-11,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147392091,1,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/151,1,0,0
+1791147389091,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,11243,252,20,20,null,0,0,0
+1791147390591,2,GET all students,200,OK,Load Test Users 1-2,text,true,,10935,125,20,20,http://localhost:3000/students,2,0,0
+1791147392094,1,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147389570,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,11243,252,20,20,null,0,0,0
+1791147391070,3,GET all students,200,OK,Load Test Users 1-15,text,true,,10935,125,20,20,http://localhost:3000/students,2,0,0
+1791147392573,1,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147392587,3,POST create student,201,Created,Load Test Users 1-12,text,true,,308,237,20,20,http://localhost:3000/students,3,0,0
+1791147389587,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,11243,252,20,20,null,0,0,0
+1791147391087,1,GET all students,200,OK,Load Test Users 1-3,text,true,,10935,125,20,20,http://localhost:3000/students,1,0,0
+1791147392588,4,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147392591,1,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/152,1,0,0
+1791147393087,2,POST create student,201,Created,Load Test Users 1-13,text,true,,312,241,20,20,http://localhost:3000/students,2,0,0
+1791147390084,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,11318,252,20,20,null,0,0,0
+1791147391585,2,GET all students,200,OK,Load Test Users 1-16,text,true,,11010,125,20,20,http://localhost:3000/students,2,0,0
+1791147393088,2,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147393090,1,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/153,1,0,0
+1791147390087,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,11390,252,20,20,null,0,0,0
+1791147391587,4,GET all students,200,OK,Load Test Users 1-4,text,true,,11082,125,20,20,http://localhost:3000/students,4,0,0
+1791147393091,2,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147393258,2,POST create student,201,Created,Load Test Users 1-1,text,true,,298,227,20,20,http://localhost:3000/students,2,0,0
+1791147393584,2,POST create student,201,Created,Load Test Users 1-14,text,true,,315,244,20,20,http://localhost:3000/students,2,0,0
+1791147390582,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,11390,252,20,20,null,0,0,0
+1791147392082,2,GET all students,200,OK,Load Test Users 1-17,text,true,,11082,125,20,20,http://localhost:3000/students,2,0,0
+1791147393585,2,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147393587,2,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/154,2,0,0
+1791147390593,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,11464,252,20,20,null,0,0,0
+1791147392093,2,GET all students,200,OK,Load Test Users 1-5,text,true,,11156,125,20,20,http://localhost:3000/students,2,0,0
+1791147393595,1,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147393596,2,POST create student,201,Created,Load Test Users 1-2,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147391071,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,11464,252,20,20,null,0,0,0
+1791147392571,2,GET all students,200,OK,Load Test Users 1-18,text,true,,11156,125,20,20,http://localhost:3000/students,2,0,0
+1791147394074,2,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147394075,2,POST create student,201,Created,Load Test Users 1-15,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147394091,2,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/155,2,0,0
+1791147391086,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,11533,252,20,20,null,0,0,0
+1791147392587,3,GET all students,200,OK,Load Test Users 1-6,text,true,,11225,125,20,20,http://localhost:3000/students,3,0,0
+1791147394091,3,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147394092,3,POST create student,201,Created,Load Test Users 1-3,text,true,,313,242,20,20,http://localhost:3000/students,3,0,0
+1791147394590,1,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/156,1,0,0
+1791147394590,2,POST create student,201,Created,Load Test Users 1-16,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147391588,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,11606,252,20,20,null,0,0,0
+1791147393088,2,GET all students,200,OK,Load Test Users 1-19,text,true,,11298,125,20,20,http://localhost:3000/students,2,0,0
+1791147394591,2,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147394594,1,POST create student,201,Created,Load Test Users 1-4,text,true,,314,243,20,20,http://localhost:3000/students,1,0,0
+1791147391591,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,11606,252,20,20,null,0,0,0
+1791147393091,2,GET all students,200,OK,Load Test Users 1-7,text,true,,11298,125,20,20,http://localhost:3000/students,2,0,0
+1791147394593,3,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147394761,2,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/157,2,0,0
+1791147395087,2,GET newly created student,200,OK,Load Test Users 1-14,text,true,,310,129,20,20,http://localhost:3000/students/158,2,0,0
+1791147395088,1,POST create student,201,Created,Load Test Users 1-17,text,true,,311,240,20,20,http://localhost:3000/students,1,0,0
+1791147392085,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,11741,252,20,20,null,0,0,0
+1791147393586,2,GET all students,200,OK,Load Test Users 1-20,text,true,,11433,125,20,20,http://localhost:3000/students,2,0,0
+1791147395088,2,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147392093,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,11741,252,20,20,null,0,0,0
+1791147393593,2,GET all students,200,OK,Load Test Users 1-8,text,true,,11433,125,20,20,http://localhost:3000/students,2,0,0
+1791147395095,2,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147395097,2,POST create student,201,Created,Load Test Users 1-5,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147395098,2,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/159,2,0,0
+1791147395577,2,POST create student,201,Created,Load Test Users 1-18,text,true,,308,237,20,20,http://localhost:3000/students,2,0,0
+1791147395578,2,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/160,2,0,0
+1791147395594,3,POST create student,201,Created,Load Test Users 1-6,text,true,,312,241,20,20,http://localhost:3000/students,3,0,0
+1791147395595,4,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/161,4,0,0
+1791147392593,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,11959,252,20,20,null,0,0,0
+1791147394093,3,GET all students,200,OK,Load Test Users 1-9,text,true,,11651,125,20,20,http://localhost:3000/students,3,0,0
+1791147395596,4,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147396093,2,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/162,2,0,0
+1791147396094,3,POST create student,201,Created,Load Test Users 1-19,text,true,,298,227,20,20,http://localhost:3000/students,3,0,0
+1791147393091,3009,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,12029,252,20,20,null,0,0,0
+1791147394591,3,GET all students,200,OK,Load Test Users 1-10,text,true,,11721,125,20,20,http://localhost:3000/students,3,0,0
+1791147396094,6,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,6,0,0
+1791147396096,3,POST create student,201,Created,Load Test Users 1-7,text,true,,315,244,20,20,http://localhost:3000/students,3,0,0
+1791147396096,4,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/163,4,0,0
+1791147396590,2,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/164,2,0,0
+1791147396591,2,POST create student,201,Created,Load Test Users 1-20,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147393589,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,12176,252,20,20,null,0,0,0
+1791147395089,2,GET all students,200,OK,Load Test Users 1-11,text,true,,11868,125,20,20,http://localhost:3000/students,2,0,0
+1791147396592,2,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147396598,3,POST create student,201,Created,Load Test Users 1-8,text,true,,313,242,20,20,http://localhost:3000/students,3,0,0
+1791147396600,2,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/165,2,0,0
+1791147397080,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/166,2,0,0
+1791147394093,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,12319,252,20,20,null,0,0,0
+1791147395593,2,GET all students,200,OK,Load Test Users 1-12,text,true,,12011,125,20,20,http://localhost:3000/students,2,0,0
+1791147397100,2,POST create student,201,Created,Load Test Users 1-9,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147397099,1,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/167,1,0,0
+1791147397096,2,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147394592,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,12392,252,20,20,null,0,0,0
+1791147396092,2,GET all students,200,OK,Load Test Users 1-13,text,true,,12084,125,20,20,http://localhost:3000/students,2,0,0
+1791147397594,2,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147397598,2,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/168,2,0,0
+1791147397600,2,POST create student,201,Created,Load Test Users 1-10,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147397600,3,GET newly created student,200,OK,Load Test Users 1-7,text,true,,310,129,20,20,http://localhost:3000/students/169,3,0,0
+1791147394763,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,12527,252,20,20,null,0,0,0
+1791147396264,2,GET all students,200,OK,Load Test Users 1-1,text,true,,12219,125,20,20,http://localhost:3000/students,2,0,0
+1791147397767,2,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147395089,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,12527,252,20,20,null,0,0,0
+1791147396589,2,GET all students,200,OK,Load Test Users 1-14,text,true,,12219,125,20,20,http://localhost:3000/students,2,0,0
+1791147398092,3,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147398094,3,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/170,3,0,0
+1791147398095,3,POST create student,201,Created,Load Test Users 1-11,text,true,,314,243,20,20,http://localhost:3000/students,3,0,0
+1791147398102,2,GET newly created student,200,OK,Load Test Users 1-8,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/171,2,0,0
+1791147395100,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,12671,252,20,20,null,0,0,0
+1791147396601,2,GET all students,200,OK,Load Test Users 1-2,text,true,,12363,125,20,20,http://localhost:3000/students,2,0,0
+1791147398103,2,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147395581,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,12671,252,20,20,null,0,0,0
+1791147397082,2,GET all students,200,OK,Load Test Users 1-15,text,true,,12363,125,20,20,http://localhost:3000/students,2,0,0
+1791147398585,1,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147398603,3,POST create student,201,Created,Load Test Users 1-12,text,true,,311,240,20,20,http://localhost:3000/students,3,0,0
+1791147398603,5,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/172,5,0,0
+1791147395599,3009,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,12745,252,20,20,null,0,0,0
+1791147397099,4,GET all students,200,OK,Load Test Users 1-3,text,true,,12437,125,20,20,http://localhost:3000/students,4,0,0
+1791147398603,5,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,5,0,0
+1791147399097,3,POST create student,201,Created,Load Test Users 1-13,text,true,,313,242,20,20,http://localhost:3000/students,3,0,0
+1791147396096,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,12745,252,20,20,null,0,0,0
+1791147397596,3,GET all students,200,OK,Load Test Users 1-16,text,true,,12437,125,20,20,http://localhost:3000/students,2,0,0
+1791147399099,1,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147399103,3,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/173,3,0,0
+1791147396100,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,12815,252,20,20,null,0,0,0
+1791147397601,3,GET all students,200,OK,Load Test Users 1-4,text,true,,12507,125,20,20,http://localhost:3000/students,2,0,0
+1791147399104,4,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147399269,2,POST create student,201,Created,Load Test Users 1-1,text,true,,308,237,20,20,http://localhost:3000/students,2,0,0
+1791147399596,3,POST create student,201,Created,Load Test Users 1-14,text,true,,312,241,20,20,http://localhost:3000/students,3,0,0
+1791147396592,3009,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,12815,252,20,20,null,0,0,0
+1791147398093,4,GET all students,200,OK,Load Test Users 1-17,text,true,,12507,125,20,20,http://localhost:3000/students,4,0,0
+1791147399597,4,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147399600,3,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/174,3,0,0
+1791147396602,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,12890,252,20,20,null,0,0,0
+1791147398102,3,GET all students,200,OK,Load Test Users 1-5,text,true,,12582,125,20,20,http://localhost:3000/students,3,0,0
+1791147399605,3,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147399606,3,POST create student,201,Created,Load Test Users 1-2,text,true,,298,227,20,20,http://localhost:3000/students,3,0,0
+1791147397083,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,12890,252,20,20,null,0,0,0
+1791147398583,2,GET all students,200,OK,Load Test Users 1-18,text,true,,12582,125,20,20,http://localhost:3000/students,2,0,0
+1791147400085,2,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147400086,2,POST create student,201,Created,Load Test Users 1-15,text,true,,315,244,20,20,http://localhost:3000/students,2,0,0
+1791147400107,2,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/175,2,0,0
+1791147397103,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,12962,252,20,20,null,0,0,0
+1791147398603,4,GET all students,200,OK,Load Test Users 1-6,text,true,,12654,125,20,20,http://localhost:3000/students,4,0,0
+1791147400107,2,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147400109,1,POST create student,201,Created,Load Test Users 1-3,text,true,,309,238,20,20,http://localhost:3000/students,1,0,0
+1791147400600,2,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/176,2,0,0
+1791147400601,2,POST create student,201,Created,Load Test Users 1-16,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147397600,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,13036,252,20,20,null,0,0,0
+1791147399101,1,GET all students,200,OK,Load Test Users 1-19,text,true,,12728,125,20,20,http://localhost:3000/students,1,0,0
+1791147400603,1,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147397603,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,13036,252,20,20,null,0,0,0
+1791147399103,4,GET all students,200,OK,Load Test Users 1-7,text,true,,12728,125,20,20,http://localhost:3000/students,4,0,0
+1791147400607,3,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147400609,2,POST create student,201,Created,Load Test Users 1-4,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147400772,4,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/177,4,0,2
+1791147401100,2,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/178,2,0,0
+1791147401102,1,POST create student,201,Created,Load Test Users 1-17,text,true,,309,238,20,20,http://localhost:3000/students,1,0,0
+1791147398097,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,13178,252,20,20,null,0,0,0
+1791147399598,4,GET all students,200,OK,Load Test Users 1-20,text,true,,12870,125,20,20,http://localhost:3000/students,4,0,0
+1791147401102,2,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147401108,2,POST create student,201,Created,Load Test Users 1-5,text,true,,314,243,20,20,http://localhost:3000/students,2,0,0
+1791147398105,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,13178,252,20,20,null,0,0,0
+1791147399605,2,GET all students,200,OK,Load Test Users 1-8,text,true,,12870,125,20,20,http://localhost:3000/students,2,0,0
+1791147401108,3,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147401109,3,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/179,3,0,1
+1791147401588,2,POST create student,201,Created,Load Test Users 1-18,text,true,,311,240,20,20,http://localhost:3000/students,2,0,0
+1791147401589,2,GET newly created student,200,OK,Load Test Users 1-15,text,true,,310,129,20,20,http://localhost:3000/students/180,2,0,0
+1791147401610,2,POST create student,201,Created,Load Test Users 1-6,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147398608,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,13383,252,20,20,null,0,0,0
+1791147400108,3,GET all students,200,OK,Load Test Users 1-9,text,true,,13075,125,20,20,http://localhost:3000/students,3,0,0
+1791147401611,4,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147401611,4,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/181,4,0,1
+1791147402105,1,POST create student,201,Created,Load Test Users 1-19,text,true,,308,237,20,20,http://localhost:3000/students,1,0,0
+1791147402104,3,GET newly created student,200,OK,Load Test Users 1-16,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/182,3,0,0
+1791147399106,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,13457,252,20,20,null,0,0,0
+1791147400607,2,GET all students,200,OK,Load Test Users 1-10,text,true,,13149,125,20,20,http://localhost:3000/students,2,0,0
+1791147402109,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147402111,1,POST create student,201,Created,Load Test Users 1-7,text,true,,312,241,20,20,http://localhost:3000/students,1,0,0
+1791147402112,2,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/183,2,0,1
+1791147402604,2,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/184,2,0,0
+1791147402604,3,POST create student,201,Created,Load Test Users 1-20,text,true,,298,227,20,20,http://localhost:3000/students,3,0,0
+1791147399603,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,13601,252,20,20,null,0,0,0
+1791147401103,2,GET all students,200,OK,Load Test Users 1-11,text,true,,13293,125,20,20,http://localhost:3000/students,2,0,0
+1791147402605,3,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147402612,2,POST create student,201,Created,Load Test Users 1-8,text,true,,315,244,20,20,http://localhost:3000/students,2,0,0
+1791147402611,4,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/185,4,0,1
+1791147403091,2,GET newly created student,200,OK,Load Test Users 1-18,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/186,2,0,0
+1791147400109,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-12,,true,,13822,252,20,20,null,0,0,0
+1791147401610,3,GET all students,200,OK,Load Test Users 1-12,text,true,,13514,125,20,20,http://localhost:3000/students,3,0,0
+1791147403113,3,GET student by id,200,OK,Load Test Users 1-12,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147403113,4,GET newly created student,200,OK,Load Test Users 1-6,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/187,4,0,1
+1791147403115,3,POST create student,201,Created,Load Test Users 1-9,text,true,,309,238,20,20,http://localhost:3000/students,3,0,0
+1791147400603,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-13,,true,,13822,252,20,20,null,0,0,0
+1791147402103,2,GET all students,200,OK,Load Test Users 1-13,text,true,,13514,125,20,20,http://localhost:3000/students,2,0,0
+1791147403606,1,GET student by id,200,OK,Load Test Users 1-13,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147403607,1,GET newly created student,200,OK,Load Test Users 1-19,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/188,1,0,0
+1791147403611,2,POST create student,201,Created,Load Test Users 1-10,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147403613,3,GET newly created student,200,OK,Load Test Users 1-7,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/189,3,0,1
+1791147400776,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-1,,true,,13964,252,20,20,null,0,0,0
+1791147402277,2,GET all students,200,OK,Load Test Users 1-1,text,true,,13656,125,20,20,http://localhost:3000/students,2,0,0
+1791147403779,2,GET student by id,200,OK,Load Test Users 1-1,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147401102,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-14,,true,,13964,252,20,20,null,0,0,0
+1791147402603,3,GET all students,200,OK,Load Test Users 1-14,text,true,,13656,125,20,20,http://localhost:3000/students,3,0,0
+1791147404106,2,GET student by id,200,OK,Load Test Users 1-14,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147404108,2,POST create student,201,Created,Load Test Users 1-11,text,true,,313,242,20,20,http://localhost:3000/students,2,0,0
+1791147404108,2,GET newly created student,200,OK,Load Test Users 1-20,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,20,20,http://localhost:3000/students/190,2,0,0
+1791147404115,4,GET newly created student,200,OK,Load Test Users 1-8,text,true,,310,129,20,20,http://localhost:3000/students/191,4,0,1
+1791147401113,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-2,,true,,14099,252,20,20,null,0,0,0
+1791147402613,4,GET all students,200,OK,Load Test Users 1-2,text,true,,13791,125,20,20,http://localhost:3000/students,4,0,0
+1791147404117,3,GET student by id,200,OK,Load Test Users 1-2,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147401591,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-15,,true,,14099,252,20,20,null,0,0,0
+1791147403091,3,GET all students,200,OK,Load Test Users 1-15,text,true,,13791,125,20,20,http://localhost:3000/students,3,0,0
+1791147404594,2,GET student by id,200,OK,Load Test Users 1-15,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147404616,2,POST create student,201,Created,Load Test Users 1-12,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147401616,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-3,,true,,14169,252,20,20,null,0,0,0
+1791147403116,3,GET all students,200,OK,Load Test Users 1-3,text,true,,13861,125,20,20,http://localhost:3000/students,3,0,0
+1791147404619,2,GET student by id,200,OK,Load Test Users 1-3,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147404618,4,GET newly created student,200,OK,Load Test Users 1-9,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/192,4,0,1
+1791147405108,4,POST create student,201,Created,Load Test Users 1-13,text,true,,314,243,20,20,http://localhost:3000/students,4,0,0
+1791147402108,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-16,,true,,14169,252,20,20,null,0,0,0
+1791147403608,1,GET all students,200,OK,Load Test Users 1-16,text,true,,13861,125,20,20,http://localhost:3000/students,1,0,0
+1791147405110,3,GET student by id,200,OK,Load Test Users 1-16,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147405114,3,GET newly created student,200,OK,Load Test Users 1-10,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/193,3,0,1
+1791147402115,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-4,,true,,14243,252,20,20,null,0,0,0
+1791147403615,2,GET all students,200,OK,Load Test Users 1-4,text,true,,13935,125,20,20,http://localhost:3000/students,2,0,0
+1791147405118,2,GET student by id,200,OK,Load Test Users 1-4,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147405282,2,POST create student,201,Created,Load Test Users 1-1,text,true,,311,240,20,20,http://localhost:3000/students,2,0,0
+1791147405609,1,POST create student,201,Created,Load Test Users 1-14,text,true,,313,242,20,20,http://localhost:3000/students,1,0,0
+1791147402606,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-17,,true,,14243,252,20,20,null,0,0,0
+1791147404107,2,GET all students,200,OK,Load Test Users 1-17,text,true,,13935,125,20,20,http://localhost:3000/students,2,0,0
+1791147405609,2,GET student by id,200,OK,Load Test Users 1-17,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147405611,3,GET newly created student,200,OK,Load Test Users 1-11,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/194,3,0,1
+1791147402615,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-5,,true,,14317,252,20,20,null,0,0,0
+1791147404116,2,GET all students,200,OK,Load Test Users 1-5,text,true,,14009,125,20,20,http://localhost:3000/students,2,0,0
+1791147405618,2,GET student by id,200,OK,Load Test Users 1-5,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147405621,1,POST create student,201,Created,Load Test Users 1-2,text,true,,308,237,20,20,http://localhost:3000/students,1,0,0
+1791147406097,2,POST create student,201,Created,Load Test Users 1-15,text,true,,312,241,20,20,http://localhost:3000/students,2,0,0
+1791147403093,3007,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-18,,true,,14317,252,20,20,null,0,0,0
+1791147404594,2,GET all students,200,OK,Load Test Users 1-18,text,true,,14009,125,20,20,http://localhost:3000/students,2,0,0
+1791147406097,3,GET student by id,200,OK,Load Test Users 1-18,text,true,,308,127,20,20,http://localhost:3000/students/1,3,0,0
+1791147406119,3,GET newly created student,200,OK,Load Test Users 1-12,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,20,20,http://localhost:3000/students/195,3,0,1
+1791147403117,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-6,,true,,14387,252,20,20,null,0,0,0
+1791147404617,3,GET all students,200,OK,Load Test Users 1-6,text,true,,14079,125,20,20,http://localhost:3000/students,3,0,0
+1791147406120,2,GET student by id,200,OK,Load Test Users 1-6,text,true,,308,127,20,20,http://localhost:3000/students/1,2,0,0
+1791147406122,1,POST create student,201,Created,Load Test Users 1-3,text,true,,298,227,20,20,http://localhost:3000/students,1,0,0
+1791147406613,3,POST create student,201,Created,Load Test Users 1-16,text,true,,315,244,20,20,http://localhost:3000/students,3,0,0
+1791147403609,3008,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-19,,true,,14462,252,20,20,null,0,0,0
+1791147405109,3,GET all students,200,OK,Load Test Users 1-19,text,true,,14154,125,20,20,http://localhost:3000/students,3,0,0
+1791147406613,4,GET student by id,200,OK,Load Test Users 1-19,text,true,,308,127,20,20,http://localhost:3000/students/1,4,0,0
+1791147406612,6,GET newly created student,200,OK,Load Test Users 1-13,text,false,Test failed: text expected to contain /Alice Johnson/,309,129,20,20,http://localhost:3000/students/196,6,0,2
+1791147403617,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-7,,true,,14462,252,20,20,null,0,0,0
+1791147405117,3,GET all students,200,OK,Load Test Users 1-7,text,true,,14154,125,20,20,http://localhost:3000/students,3,0,0
+1791147406620,1,GET student by id,200,OK,Load Test Users 1-7,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147406621,1,POST create student,201,Created,Load Test Users 1-4,text,true,,309,238,20,20,http://localhost:3000/students,1,0,0
+1791147406785,3,GET newly created student,200,OK,Load Test Users 1-1,text,false,Test failed: text expected to contain /Alice Johnson/,306,129,20,20,http://localhost:3000/students/197,2,0,0
+1791147407112,1,POST create student,201,Created,Load Test Users 1-17,text,true,,313,242,20,20,http://localhost:3000/students,1,0,0
+1791147404111,3003,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-20,,true,,14608,252,20,20,null,0,0,0
+1791147405611,1,GET all students,200,OK,Load Test Users 1-20,text,true,,14300,125,20,20,http://localhost:3000/students,1,0,0
+1791147407113,1,GET student by id,200,OK,Load Test Users 1-20,text,true,,308,127,20,20,http://localhost:3000/students/1,1,0,0
+1791147407111,3,GET newly created student,200,OK,Load Test Users 1-14,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,20,20,http://localhost:3000/students/198,3,0,1
+1791147407121,1,POST create student,201,Created,Load Test Users 1-5,text,true,,313,242,20,20,http://localhost:3000/students,1,0,0
+1791147404120,3002,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-8,,true,,14608,252,20,20,null,0,0,0
+1791147405620,1,GET all students,200,OK,Load Test Users 1-8,text,true,,14300,125,20,20,http://localhost:3000/students,1,0,0
+1791147407122,0,GET student by id,200,OK,Load Test Users 1-8,text,true,,308,127,20,20,http://localhost:3000/students/1,0,0,0
+1791147407123,1,GET newly created student,200,OK,Load Test Users 1-2,text,false,Test failed: text expected to contain /Alice Johnson/,303,129,20,20,http://localhost:3000/students/199,1,0,0
+1791147407600,2,POST create student,201,Created,Load Test Users 1-18,text,true,,309,238,20,20,http://localhost:3000/students,2,0,0
+1791147407600,3,GET newly created student,200,OK,Load Test Users 1-15,text,false,Test failed: text expected to contain /Alice Johnson/,307,129,20,20,http://localhost:3000/students/200,3,0,1
+1791147407603,0,View One Student (transaction),,,Load Test Users 1-15,,true,,0,0,20,20,null,0,0,0
+1791147407623,1,POST create student,201,Created,Load Test Users 1-6,text,true,,314,243,18,18,http://localhost:3000/students,1,0,0
+1791147406122,1503,View One Student (transaction),200,,Load Test Users 1-12,,true,,14940,125,18,18,null,0,0,0
+1791147407622,3,GET all students,200,OK,Load Test Users 1-12,text,true,,14940,125,18,18,http://localhost:3000/students,3,0,0
+1791147407624,2,GET newly created student,200,OK,Load Test Users 1-3,text,false,Test failed: text expected to contain /Alice Johnson/,293,129,16,16,http://localhost:3000/students/201,2,0,0
+1791147407626,0,View One Student (transaction),,,Load Test Users 1-3,,true,,0,0,16,16,null,0,0,0
+1791147404622,3004,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-9,,true,,14809,252,16,16,null,0,0,0
+1791147406122,3,GET all students,200,OK,Load Test Users 1-9,text,true,,14501,125,20,20,http://localhost:3000/students,2,0,0
+1791147407625,1,GET student by id,200,OK,Load Test Users 1-9,text,true,,308,127,16,16,http://localhost:3000/students/1,1,0,0
+1791147408117,3,POST create student,201,Created,Load Test Users 1-19,text,true,,311,240,14,14,http://localhost:3000/students,3,0,0
+1791147406618,1504,View One Student (transaction),200,,Load Test Users 1-13,,true,,15012,125,13,13,null,0,0,0
+1791147408118,4,GET all students,200,OK,Load Test Users 1-13,text,true,,15012,125,14,14,http://localhost:3000/students,4,0,0
+1791147408117,5,GET newly created student,200,OK,Load Test Users 1-16,text,true,,310,129,13,13,http://localhost:3000/students/202,5,0,1
+1791147408123,0,View One Student (transaction),,,Load Test Users 1-16,,true,,0,0,12,12,null,0,0,0
+1791147405118,3005,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-10,,true,,14885,252,11,11,null,0,0,0
+1791147406618,2,GET all students,200,OK,Load Test Users 1-10,text,true,,14577,125,20,20,http://localhost:3000/students,2,0,0
+1791147408121,2,GET student by id,200,OK,Load Test Users 1-10,text,true,,308,127,11,11,http://localhost:3000/students/1,2,0,0
+1791147408122,2,POST create student,201,Created,Load Test Users 1-7,text,true,,313,242,10,10,http://localhost:3000/students,2,0,0
+1791147408123,2,GET newly created student,200,OK,Load Test Users 1-4,text,false,Test failed: text expected to contain /Alice Johnson/,304,129,9,9,http://localhost:3000/students/203,2,0,0
+1791147408126,0,View One Student (transaction),,,Load Test Users 1-4,,true,,0,0,9,9,null,0,0,0
+1791147406788,1502,View One Student (transaction),200,,Load Test Users 1-1,,true,,15086,125,8,8,null,0,0,0
+1791147408288,2,GET all students,200,OK,Load Test Users 1-1,text,true,,15086,125,8,8,http://localhost:3000/students,2,0,0
+1791147408614,3,POST create student,201,Created,Load Test Users 1-20,text,true,,308,237,7,7,http://localhost:3000/students,3,0,0
+1791147407114,1504,View One Student (transaction),200,,Load Test Users 1-14,,true,,15155,125,6,6,null,0,0,0
+1791147408615,3,GET all students,200,OK,Load Test Users 1-14,text,true,,15155,125,6,6,http://localhost:3000/students,3,0,0
+1791147408613,5,GET newly created student,200,OK,Load Test Users 1-17,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,6,6,http://localhost:3000/students/204,5,0,2
+1791147408619,0,View One Student (transaction),,,Load Test Users 1-17,,true,,0,0,6,6,null,0,0,0
+1791147405614,3006,View One Student (transaction),200,"Number of samples in transaction : 2, number of failing samples : 0",Load Test Users 1-11,,true,,15029,252,4,4,null,0,0,0
+1791147407115,1,GET all students,200,OK,Load Test Users 1-11,text,true,,14721,125,20,20,http://localhost:3000/students,0,0,0
+1791147408616,4,GET student by id,200,OK,Load Test Users 1-11,text,true,,308,127,4,4,http://localhost:3000/students/1,4,0,0
+1791147408623,1,POST create student,201,Created,Load Test Users 1-8,text,true,,312,241,3,3,http://localhost:3000/students,1,0,0
+1791147408623,2,GET newly created student,200,OK,Load Test Users 1-5,text,false,Test failed: text expected to contain /Alice Johnson/,308,129,3,3,http://localhost:3000/students/205,2,0,0
+1791147408625,0,View One Student (transaction),,,Load Test Users 1-5,,true,,0,0,3,3,null,0,0,0
+1791147407124,1502,View One Student (transaction),200,,Load Test Users 1-2,,true,,15228,125,1,1,null,0,0,0
+1791147408625,1,GET all students,200,OK,Load Test Users 1-2,text,true,,15228,125,1,1,http://localhost:3000/students,1,0,0

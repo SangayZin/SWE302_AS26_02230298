@@ -16,6 +16,71 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '../views'));
 
+// ---------- Student Management API (in-memory) ----------
+let students = [
+    { id: 1, name: "Alice Johnson", email: "alice@example.com", course: "CS" },
+    { id: 2, name: "Bob Smith",     email: "bob@example.com",   course: "IT" },
+    { id: 3, name: "Carol White",   email: "carol@example.com", course: "SE" }
+];
+let nextId = 4;
+
+// GET /students — list all
+app.get('/students', (req, res) => {
+    res.json(students);
+});
+
+// GET /students/:id — get one
+app.get('/students/:id', (req, res) => {
+    const id = parseInt(req.params.id, 10);
+    const student = students.find(s => s.id === id);
+    if (!student) return res.status(404).json({ error: "Student not found" });
+    res.json(student);
+});
+
+// POST /students — create new
+app.post('/students', (req, res) => {
+    const { name, email, course } = req.body;
+    if (!name || !email || !course) {
+        return res.status(400).json({ error: "name, email and course are required" });
+    }
+    const newStudent = { id: nextId++, name, email, course };
+    students.push(newStudent);
+    res.status(201).json(newStudent);
+});
+
+// PUT /students/:id — update
+app.put('/students/:id', (req, res) => {
+    const id = parseInt(req.params.id, 10);
+    const student = students.find(s => s.id === id);
+    if (!student) return res.status(404).json({ error: "Student not found" });
+    const { name, email, course } = req.body;
+    if (name)   student.name = name;
+    if (email)  student.email = email;
+    if (course) student.course = course;
+    res.json(student);
+});
+
+// DELETE /students/:id — remove
+app.delete('/students/:id', (req, res) => {
+    const id = parseInt(req.params.id, 10);
+    const idx = students.findIndex(s => s.id === id);
+    if (idx === -1) return res.status(404).json({ error: "Student not found" });
+    const removed = students.splice(idx, 1)[0];
+    res.json({ deleted: removed });
+});
+
+// POST /students/reset — restore original data (for repeatable tests)
+app.post('/students/reset', (req, res) => {
+    students = [
+        { id: 1, name: "Alice Johnson", email: "alice@example.com", course: "CS" },
+        { id: 2, name: "Bob Smith",     email: "bob@example.com",   course: "IT" },
+        { id: 3, name: "Carol White",   email: "carol@example.com", course: "SE" }
+    ];
+    nextId = 4;
+    res.json({ message: "Students reset", count: students.length });
+});
+// ---------------------------------------------------------
+
 // Routes
 
 // Home Page - Login
